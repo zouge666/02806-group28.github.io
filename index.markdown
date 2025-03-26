@@ -1,6 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Welcome
 ---
+
+# 👋 Welcome to Group 28's Website
+
+We are all from China, and from 3 different majors:
+
+- 🚚 Transport and Logistics  
+- 💻 Computer Science  
+- 🧠 Human-Centered Artificial Intelligence  
+
+This site will showcase our data visualizations, team projects, and more!
