@@ -21,7 +21,7 @@
 title: 02806 WE ARE GROUP28
 email: s232900@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-    We all from China, and 3 different Majors, including Transport and Logistics, Computer Science and Human-Centered Artificial Intelligence.
+    We are all from China, and 3 different Majors, including Transport and Logistics, Computer Science and Human-Centered Artificial Intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
