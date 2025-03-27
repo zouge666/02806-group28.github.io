@@ -1,14 +1,9 @@
 ---
 layout: default
-title: Welcome
+title: Welcome to Group 28's Website - Assignment 2
 ---
 
-# 👋 Welcome to Group 28's Website
+# 👋 Welcome to Group 28's Website - Assignment 2
 
-We are all from China, and from 3 different majors:
+Add story Details:
 
-- 🚚 Transport and Logistics  
-- 💻 Computer Science  
-- 🧠 Human-Centered Artificial Intelligence  
-
-This site will showcase our data visualizations, team projects, and more!
