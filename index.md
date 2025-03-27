@@ -3,7 +3,7 @@ layout: default
 title: Welcome to Group 28's Website - Assignment 2
 ---
 
-# Welcome to Group 28's Website - Assignment 2
+#  Welcome to Group 28's Website - Assignment 2
 
 Welcome! On this page, we present a short data story about **TRESPASS crimes** in San Francisco.  
 Our visualizations aim to reveal spatial, temporal, and interactive patterns based on real crime data.
@@ -18,12 +18,13 @@ This time series chart shows how the number of trespass incidents has changed ov
 
 ---
 
-##  Figure 2: Heatmap Animation of TRESPASS
+## 🗺 Figure 2: Heatmap Animation of TRESPASS
 
 This animated heatmap illustrates the **geographic distribution of trespass crimes**, year by year.  
 Each frame shows hot zones where incidents were most frequent.
 
-<iframe src="trespass_heatmap_by_year.html" width="100%" height="520px" frameborder="0"></iframe>
+<iframe src="trespass_heatmap_by_year.html"
+        style="width: 100%; max-width: 960px; height: 520px; margin: auto; display: block; border: none;"></iframe>
 
 ---
 
@@ -31,7 +32,8 @@ Each frame shows hot zones where incidents were most frequent.
 
 Use the dropdown and slider to explore **where and when** trespass crimes occurred across different police districts.
 
-<iframe src="bokeh_trespass_interactive.html" width="100%" height="620px" frameborder="0"></iframe>
+<iframe src="bokeh_trespass_interactive.html"
+        style="width: 100%; max-width: 960px; height: 620px; margin: auto; display: block; border: none;"></iframe>
 
 ---
 
