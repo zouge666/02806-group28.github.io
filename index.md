@@ -5,6 +5,16 @@ title: Welcome to Group 28's Website - Assignment 2
 
 #  Welcome to Group 28's Website - Assignment 2
 
+<div style="text-align: center;">
+    Yunxuan Li - s232900
+</div>
+<div style="text-align: center;">
+    Senhao Zou - s242606
+</div>
+<div style="text-align: center;">
+    Xiaosa Liu - s242649
+</div>
+
 Welcome! On this page, we present a short data story about **TRESPASS crimes** in San Francisco.  
 Our visualizations aim to reveal spatial, temporal, and interactive patterns based on real crime data.
 
