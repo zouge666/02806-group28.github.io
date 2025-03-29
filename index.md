@@ -16,7 +16,7 @@ This time series chart shows how the number of trespass incidents has changed ov
 
 ![TRESPASS Chart](trespass_by_year.png)
 
-When analyzing San Francisco crime data, we saw a significant “spike” in 2018, when the number of crimes rose rapidly. This was followed by a gradual decline from 2019 onwards, creating a clear “up then down” trend. According to news reports (https://hoodline.com/2018/11/calls-to-sfpd-down-from-last-year-trespassing-and-noise-complaints-tick-up/) some types of crime in San Francisco did experience a significant rise in 2018. experienced a significant uptick in some types of crime in San Francisco in 2018, according to news reports .
+When analyzing San Francisco crime data, we saw a significant “spike” in 2018, when the number of crimes rose rapidly. This was followed by a gradual decline from 2019 onwards, creating a clear “up then down” trend. According to news reports [https://hoodline.com/2018/11/calls-to-sfpd-down-from-last-year-trespassing-and-noise-complaints-tick-up/](https://hoodline.com/2018/11/calls-to-sfpd-down-from-last-year-trespassing-and-noise-complaints-tick-up/) some types of crime in San Francisco did experience a significant rise in 2018. experienced a significant uptick in some types of crime in San Francisco in 2018, according to news reports .
 
 Factors contributing to the high incidence of these cases may include:
 1. an increase in the incidence of other types of crime, leading criminals to be more brazen in attempting other types of crime, such as TRESPASS.
