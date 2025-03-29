@@ -6,7 +6,7 @@ title: Welcome to Group 28's Website - Assignment 2
 #  Welcome to Group 28's Website - Assignment 2
 
 <div style="text-align: center;">
-    written by：
+    Written by：
 </div>
 <div style="text-align: center;">
     Yunxuan Li - s232900
