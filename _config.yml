@@ -24,6 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
     Yunxuan Li - s232900
     
     Senhao Zou - s242606
+
+    Xiaosa Liu - s242649
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xianalee0508.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
