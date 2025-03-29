@@ -20,7 +20,7 @@
 
 title: 02806 WE ARE GROUP28
 email: s232900@dtu.dk
-description: >- # this means to ignore newlines until "baseurl:"
+description: |- # this means to ignore newlines until "baseurl:"
     Yunxuan Li - s232900
     
     Senhao Zou - s242606
