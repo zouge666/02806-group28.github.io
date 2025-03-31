@@ -51,17 +51,13 @@ According to [news reports](https://hoodline.com/2018/11/calls-to-sfpd-down-from
 
 As other forms of crime increased—such as vehicle break-ins—criminals may have felt emboldened to commit additional offenses, including trespassing.
 
-Research shows that **2017 and 2018 were peak years for the "smash-and-grab" epidemic**, with **over 85 car break-ins per day**. Out of more than **30,000 reported incidents**, only **550 suspects were arrested**, amounting to a **clearance rate below 2%**. The near-absence of consequences may have encouraged more opportunistic crimes like trespassing.
-🔗 [KQED: Car Break-Ins Are Up in San Francisco – What's Being Done](https://www.kqed.org/news/11643054/car-breaks-ins-are-up-in-san-francisco-whats-being-done)
+Research shows that **2017 and 2018 were peak years for the "smash-and-grab" epidemic**, with **over 85 car break-ins per day**. Out of more than **30,000 reported incidents**, only **550 suspects were arrested**, amounting to a **clearance rate below 2%**. The near-absence of consequences may have encouraged more opportunistic crimes like trespassing, as reported by [KQED News](https://www.kqed.org/news/11643054/car-breaks-ins-are-up-in-san-francisco-whats-being-done).
 
----
 
 #### 2. Legal Shifts – Proposition 47
 
-The passage of **California’s Proposition 47 in 2014** reclassified certain non-violent felonies as misdemeanors, reducing penalties for offenses such as theft and drug possession. Critics argue that this policy **gave criminals more confidence** to commit low-level crimes with less fear of legal consequences.
-🔗 [LA Times: What Is California Proposition 47?](https://www.latimes.com/california/story/2024-08-12/what-is-california-proposition-47-how-proposition-36-could-change-crime-sentencing-drugs-theft)
+The passage of **California’s Proposition 47 in 2014** reclassified certain non-violent felonies as misdemeanors, reducing penalties for offenses such as theft and drug possession. Critics argue that this policy **gave criminals more confidence** to commit low-level crimes with less fear of legal consequences, as discussed in the [LA Times](https://www.latimes.com/california/story/2024-08-12/what-is-california-proposition-47-how-proposition-36-could-change-crime-sentencing-drugs-theft).
 
----
 
 #### 3. Housing Insecurity and Rising Homelessness
 
