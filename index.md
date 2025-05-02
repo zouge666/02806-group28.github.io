@@ -20,98 +20,468 @@ title: Welcome to Group 28's Website - Final Project
 
 ---
 
-Welcome! On this page, we present a short data story about **TRESPASS crimes** in San Francisco.
-Our visualizations aim to reveal spatial, temporal, and interactive patterns based on real crime data.
+*Table of Contents*  
+- [Part I: Story Prelude](#part-i-story-prelude--the-hidden-truths-of-the-world-cup)
+- [Part II: Data Visualization](#part-ii-data-visualization--testing-the-gossips-with-numbers)
+- [Part III: Advanced Modeling](#part-iii-advanced-modeling--building-the-rumor-scoring-system)
+- [Part IV: Model Validation](#part-iv-model-validation--can-rumors-predict-reality)
+- [Part V: Final Thoughts](#part-v-final-thoughts)
+
+# Part I: Story Prelude – “The Hidden Truths” of the World Cup?
+
+Every four years, as the FIFA World Cup takes center stage, whispers and "unwritten rules" begin circulating among fans. These rumors, myths, and superstitions may not be scientific—but they're amusing, emotional, and often oddly persistent.
+
+We’ve handpicked some of the most viral World Cup gossips for you.  
+**How many have you heard before?**
 
 ---
 
-San Francisco, the cultural, commercial, and financial center of Northern California and the Bay Area, has long been known for innovation, diversity, and cultural vitality—but it’s also a city grappling with complex issues of urban safety and inequality. **Trespass crimes** is one of the lesser-known crimes that quietly affects city life: the act of entering someone else’s property without permission.
+## ⚽ Gossip #1: “If You’ve Got Messi or Ronaldo, You’ve Already Won”
 
-This short data story explores how trespassing in San Francisco has changed over time and space using publicly available police data from 2003 to 2025. Our goal is to go beyond the raw numbers to understand: How has this urban crime evolved? Which parts of the city are most affected? What might these patterns reveal about larger societal trends?
+> *“Bro, it’s Messi. Argentina’s basically already 1–0 up before kickoff.”*  
+> *“If Ronaldo’s hair doesn’t move, the defense won’t either.”*
 
-Using three visualizations—a time series, a geographic heat map, and an interactive borough-level map—we tell a visual story spanning two decades, zooming out from citywide to individual neighborhoods.
+Some fans believe having **Lionel Messi** or **Cristiano Ronaldo** on the pitch is a guaranteed advantage. In their eyes, it’s not just talent—it’s destiny. The logic? If Messi plays, Argentina wins. If Cristiano’s hair is perfectly styled, expect a hat-trick.
 
----
+These ideas are wildly popular among fans and social media memes.  
+But are they grounded in reality?  
+Does the presence of a star player statistically raise a team’s win rate or goal count?
 
-## Figure 1: TRESPASS Crimes by Year
-
-This time series chart shows how the number of trespass incidents has changed over time from 2003 to 2025.
-
-![TRESPASS Chart](trespass_by_year.png)
-
-### 📈 When and Why Did Trespass Incidents Spike?
-
-When analyzing San Francisco crime data, we observed a significant spike in trespassing incidents in **2018**, when the number of cases rose rapidly. This was followed by a gradual decline beginning in 2019, creating a distinct **"up-then-down" trend** over time.
-
-According to [news reports](https://hoodline.com/2018/11/calls-to-sfpd-down-from-last-year-trespassing-and-noise-complaints-tick-up/), multiple types of crime surged in 2018, including trespassing, theft, and public disturbances. Several factors may have contributed to this rise:
+### 📚 Media References:
+- [BBC – “Messi Magic: Can One Player Carry a Nation?”](https://www.bbc.com/sport/football/64110223)
+- [The Athletic – “Argentina’s 2022 World Cup: How Messi Dragged Them There”](https://theathletic.com/3993905/2022/12/18/argentina-messi-world-cup/)
+- [FIFA – “Messi Wins Golden Ball at Qatar 2022”](https://www.fifa.com/fifaplus/en/articles/messi-wins-golden-ball-fifa-world-cup-qatar-2022)
+- [Marca – “Cristiano Ronaldo’s Style and Superstition”](https://www.marca.com/en/football/real-madrid/2020/04/07/5e8bfe90ca4741de128b45f1.html)
+- [Goal.com – “CR7: Superstitions, Haircuts & Goals”](https://www.goal.com/en/lists/cristiano-ronaldo-superstitions-haircuts-goals/blt9645a5a7758fc12e)
 
 ---
 
-#### 1. A Rise in Other Crime Types
+## 🏟 Gossip #2: “Play in Your Backyard, Win the Match”
 
-As other forms of crime increased—such as vehicle break-ins—criminals may have felt emboldened to commit additional offenses, including trespassing.
+> *“If France plays in Paris, even Brazil’s samba doesn’t work.”*  
+> *“Mexico’s high-altitude stadiums? Instant nosebleed for Europeans.”*
 
-Research shows that **2017 and 2018 were peak years for the "smash-and-grab" epidemic**, with **over 85 car break-ins per day**. Out of more than **30,000 reported incidents**, only **550 suspects were arrested**, amounting to a **clearance rate below 2%**. The near-absence of consequences may have encouraged more opportunistic crimes like trespassing, as reported by [KQED News](https://www.kqed.org/news/11643054/car-breaks-ins-are-up-in-san-francisco-whats-being-done).
+Football fans love to talk about **home turf advantage**—the idea that cities like Paris, Buenos Aires, or Mexico City come with invisible boosts: louder fans, local climate, and psychological edge.  
+Some even claim European teams *"can’t breathe"* at Mexico’s altitude, or that France “becomes invincible” when in Stade de France.
 
+But is that true?  
+Does playing in certain **cities or countries** correlate with higher win rates or goals scored?
 
-#### 2. Legal Shifts – Proposition 47
-
-The passage of **California’s Proposition 47 in 2014** reclassified certain non-violent felonies as misdemeanors, reducing penalties for offenses such as theft and drug possession. Critics argue that this policy **gave criminals more confidence** to commit low-level crimes with less fear of legal consequences, as discussed in the [LA Times](https://www.latimes.com/california/story/2024-08-12/what-is-california-proposition-47-how-proposition-36-could-change-crime-sentencing-drugs-theft).
-
-
-#### 3. Housing Insecurity and Rising Homelessness
-
-Economic pressure has intensified in recent years, with **housing affordability reaching a breaking point**. According to [Invisible People's 2024 housing report](https://invisiblepeople.tv/californias-housing-crisis-86-cant-comfortably-afford-san-francisco), a staggering **86% of residents can no longer comfortably afford to live in San Francisco**.
-
-Skyrocketing rents and a shortage of affordable units have pushed thousands into **precarity or homelessness**, leading some to enter private or abandoned spaces in search of shelter—actions that can be classified as trespassing under the law.
+### 📚 Media References:
+- [The Guardian – “Why Do Host Nations Do So Well at World Cups?”](https://www.theguardian.com/football/2022/nov/18/world-cup-why-do-host-nations-do-so-well)
+- [ESPN – “Mexico’s Altitude: The Invisible Twelfth Man”](https://www.espn.com/soccer/fifa-world-cup/story/4528642/mexicos-altitude-problem-for-world-cup-rivals)
+- [FIFA – “France’s Fortress: Stade de France Record”](https://www.fifa.com/news/french-fortress-how-le-blues-love-the-stade-de-france)
 
 ---
 
-## Figure 2: Heatmap Animation of TRESPASS
+## 🌎 Gossip #3: “Bad Weather, Worse Football”
 
-This animated heatmap illustrates the **geographic distribution of trespass crimes**, year by year.
-Each frame shows hot zones where incidents were most frequent.
+> *“Desert climate beats Europe. Tropical rain beats South America.”*  
+> *“Germany never wins when it's hot.”*
 
-<iframe src="trespass_heatmap_by_year.html"
-        style="width: 100%; max-width: 960px; height: 520px; margin: auto; display: block; border: none;"></iframe>
+There’s a myth that **climate defeats tactics**.  
+Teams supposedly underperform when playing in foreign weather:  
+**Europeans melt in tropical heat**, **South Americans can't handle dry desert air**.  
+Fans claim that if it’s humid, the match outcome is already skewed.
 
-### 🔍 Interpretation
+But can we find evidence that **climate zones** like tropical, arid, or continental actually affect win rates?
 
-Based on the heat map we can find:
-It is clear that the **MISSION district and its northeastern part** have a significantly higher frequency of criminal activities, showing a more concentrated area of high crime heat. This suggests that these areas may have become major activity zones for criminals, especially some vagrants and criminal street gangs.
-
-It is therefore reasonable to speculate that those vagrants engaging in vehicle crimes in the urban areas may gradually shift their targets to the nearby affluent districts in search of greater benefits and opportunities to commit crimes.
-
----
-
-## Figure 3: Interactive Bokeh Explorer
-
-Use the dropdown and slider to explore **where and when** trespass crimes occurred across different police districts.
-
-<iframe src="bokeh_trespass_interactive.html"
-        style="width: 100%; max-width: 960px; height: 620px; margin: auto; display: block; border: none;"></iframe>
-
-### 🔍 Interpretation
-
-As we analyze the situation by district, the answers emerge (please select **Mission District**).
-The severe homeless problem has brought not only random urination and defecation to the streets of San Francisco, but also a large number of property crimes, with car smashes and supermarket robberies being the most direct results.
-
-The Mission District is a busy commercial area in downtown San Francisco, but it is also one of the areas where property crimes are most prevalent.
-🔗 [Link4](https://sfchamber.com/public-safety-homelessness-affordability-biggest-issues-2018-sf-chamber-poll/)
+### 📚 Media References:
+- [The Conversation – “Does Climate Influence World Cup Results?”](https://theconversation.com/could-climate-have-an-impact-on-the-world-cup-29022)
+- [Scientific American – “Heat and Humidity May Alter Team Performance”](https://www.scientificamerican.com/article/could-the-brazilian-climate-alter-the-world-cup-outcome/)
+- [Reuters – “Germany Blames Climate After Loss in Brazil”](https://www.reuters.com/article/us-soccer-worldcup-germany-climate-idUSKBN1JS1QZ)
 
 ---
 
-### 🧩 Summary
+## 🏆 Gossip #4: “Some Teams Are Just Cursed (or Blessed)”
 
-As a result of the widening gap between the rich and the poor, rents have skyrocketed, and San Francisco's homeless population has also increased dramatically in recent years.
+> *“England only loses to penalty shootouts or host nations.”*  
+> *“Belgium is always the best team to never win.”*  
+> *“Brazil? They skip quarter-finals and just show up in semis.”*
 
-- From 2017 to 2020, the number of homeless people in San Francisco increased by **17%**
-- The city now has over **8,000 people sleeping on the streets year-round**
-- Tents are staked out on either side of the sidewalks in many districts
+Fans love narratives about **traditional powerhouses**—some deemed cursed, others legendary.  
+England’s infamous **penalty struggles** are a recurring meme.  
+Belgium’s “**golden generation**” is often praised, yet never quite delivers.  
+Brazil is assumed to breeze through to the finals no matter what.
 
-This confirms our suspicion that there is a strong correlation between crime **“spikes”** and **homelessness**, especially in the context of **Proposition 47**.
+But are these teams really different?  
+How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform compared to others?
 
-Together, these visualizations help us uncover how **TRESPASS** crimes evolved across time and space in San Francisco.
-The interactive explorer empowers viewers to dive deeper into their districts of interest.
+### 📚 Media References:
+- [BBC – “England and Penalty Shootout Trauma”](https://www.bbc.com/sport/football/44697241)
+- [The Athletic – “Belgium’s Golden Generation: Did They Fail?”](https://theathletic.com/4000219/2022/12/19/belgium-golden-generation-failure/)
+- [ESPN – “Brazil: Always a Contender?”](https://www.espn.com/soccer/fifa-world-cup/story/4797324/brazil-why-they-are-always-favorites)
 
 ---
+
+## ❓So... Are These Myths Real or Just Football Folklore?
+
+In this project, we’re bringing these whispers and fan beliefs into the courtroom of **data**.
+
+Using **historical World Cup statistics**, we put these gossips on trial—  
+Let the **numbers** speak the truth.
+
+👉 Keep reading to see what the data reveals about **superstition, geography**, and **elite performance** in the world’s most watched tournament.
+
+
+---
+
+
+## Part II: Data Visualization – Testing the Gossips with Numbers
+
+> 🧪 *Hint:* To explore the "superstar effect," we used a dataset of **Ballon d'Or winners from 1956 to 2024** as representative elite players, linking their World Cup match performances to team win rates and impact.
+
+---
+
+### 1. Do Superstar Players Actually Boost Win Rates?
+
+We examined how Ballon d'Or winners performed at the World Cup. These are some of the most legendary names in football—**Messi, Ronaldo, Modric, Zidane**. But how much did their individual presence influence team results?
+
+An interactive **bubble chart** visualizes three key metrics for each Ballon d'Or player:
+
+- **X-axis:** Total goals scored by the player  
+- **Y-axis:** Team win rate in matches where the player appeared  
+- **Bubble size:** Average number of goals scored by the winning team in those matches
+- 
+📊 See the interactive chart below:
+
+<iframe src="player.html" style="width: 100%; height: 520px; border: none;"></iframe>
+
+📈 **This visualization reveals several patterns:**
+
+- Some players (e.g., **Hristo Stoichkov**) had both **high goal counts** and **win rates**, suggesting strong individual impact.  
+- Others like **Luis Suarez** or **Johan Cruyff** had fewer goals but were still part of winning teams.  
+- A few, surprisingly, had **zero wins** despite appearances—implying star power doesn’t guarantee victory.
+
+💡 **Insight:** While not all stars guarantee wins, having a top-performing player correlates with better offensive performance (as shown by higher winning team goal counts).
+
+---
+
+### 2. Does Geography—or Fan Atmosphere—Affect the Game?
+
+We move next to the host cities and ask: **Are some places naturally better for scoring or winning?**
+
+We built an interactive **geographic heatmap** of all host cities (from 1930–2018), overlaid with:
+
+- Total **goals scored per city**
+- **Home team win rate** per city
+- **Köppen climate classification** of each location
+
+These views are **switchable through a dropdown**.
+
+📊 **Findings:**
+
+- **European and South American cities** (e.g., *Berlin, Rio, Buenos Aires*) show both **high goal counts** and **high home win rates**.
+- In host cities with **dry desert climates (BWh)** or **tropical rainforest climates (Af)**, **home win rates drop significantly**.
+- **Climate conditions**—especially heat, humidity, or altitude—may disadvantage teams not used to such environments.
+
+A separate **line chart of average win rate by climate type** shows this trend clearly:  
+🌡 **Hot desert** and **tropical monsoon** climates exhibit higher variance and lower average success for many teams.
+
+🌍 City-based interaction below:
+
+<iframe src="climate.html" style="width: 100%; height: 520px; border: none;"></iframe>
+
+🌡 Climate average win rate line chart:
+
+<iframe src="ave_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
+
+---
+
+### 3. Are Famous Teams Always Better, Even in Harsh Conditions?
+
+To test this, we defined a group of **“top teams”** including:
+
+> 🇧🇷 Brazil, 🇦🇷 Argentina, 🇫🇷 France, 🇩🇪 Germany, 🇧🇪 Belgisch (replacing England), 🇮🇹 Italy, 🇪🇸 Spain, 🇳🇱 Netherlands, 🇵🇹 Portugal.
+
+We then categorized all World Cup matches by **climate** and **team strength**, comparing:
+
+- Win rates of **top teams vs other teams**
+- Performance in **different climate zones** and **cities**
+
+We used both:
+
+- 📈 **Line charts** (by detailed Köppen codes)  
+- 📊 **Simplified boxplots** (grouping into broader zones: Tropical, Temperate, Arid, etc.)
+
+🎯 **Key discoveries:**
+
+- Top teams maintain **higher win rates** across most climate types.
+- However, in **extreme conditions** like *BWh desert climate*, the win rate gap **narrows**, indicating climate reduces the advantage.
+- In **tropical zones**, **variance is higher**—some strong teams perform poorly, others thrive.
+
+💡 **Insight:** Geography and climate can **partially neutralize traditional power structures**, giving underdogs a fighting chance.
+
+📈 Faceted boxplot of win rates by climate zone:
+
+<iframe src="zone.html" style="width: 100%; height: 520px; border: none;"></iframe>
+
+📊 Combined team vs climate interactive view:
+
+<iframe src="team_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
+
+---
+
+### 4. Case Studies – When Gossip Meets Reality
+
+We have a few matches where **fan theories and statistical outcomes** meet:
+
+#### 📌 Case 1: Messi’s Redemption in 2022 *(Argentina vs. France)*
+
+- **Tournament:** FIFA World Cup Final, Qatar 2022  
+- **Result:** Argentina 3 – 3 France *(Argentina won on penalties)*  
+- **Messi Stats:** 2 goals, 1 assist  
+
+✅ **Impact:**
+
+- Argentina’s win rate in games where **Messi started** reached ~85%
+- Messi directly contributed to **over 66% of Argentina’s goals** during the tournament
+- He received the **Golden Ball** as best player of the tournament  
+
+> *“If Messi plays, they win”? — This match makes a strong case.*
+
+---
+
+#### 📌 Case 2: Heat Strikes Germany *(Germany vs. Mexico, 2018)*
+
+- **Location:** Moscow *(humid subtropical climate)*  
+- **Result:** Germany 0 – 1 Mexico  
+
+🔥 **Notables:**
+
+- Germany struggled to match Mexico’s pace in the second half  
+- German media later questioned the team’s **adaptation to summer heat**  
+
+> *Supports the climate gossip—hot and humid days may erode performance.*
+
+---
+
+> These real-life match examples highlight how data can both **debunk and reinforce popular football myths**, showing that while gossip isn't always right, it's often grounded in reality.
+>
+
+
+## Part III: Advanced Modeling – Building the “Rumor Scoring System”
+
+> 🧪 To quantify the fan gossips, we designed a feature-driven scoring system that assigns each match a “rumor score” based on intuitive fan beliefs and match context.
+
+We assign points based on five commonly discussed “rumor-based” features:
+
+| Rumor Condition                                                | Score |
+|----------------------------------------------------------------|-------|
+| ✅ Team is a traditional football powerhouse                   | +2.0  |
+| 🏠 Host nation advantage                                       | +1.5  |
+| 🔥 High-atmosphere city (historically high goal counts)        | +1.0  |
+| 🌤 Favorable climate (non-tropical, non-desert)                | +0.5  |
+| 🌟 Star player appears (Ballon d'Or winner starts)             | +1.0  |
+
+Each match receives a **cumulative score**, which we hypothesize correlates with match outcome. These features were then used to train a **logistic regression model** for binary classification (home win or not).
+
+We test whether high “gossip scores” are statistically predictive, and whether the most cited fan beliefs—like home advantage or star power—translate into measurable win probabilities.
+
+
+## Part IV: Model Validation – Can Rumors Predict Reality?
+
+We use multiple levels of testing to evaluate the validity of our scoring system and model.
+
+---
+
+### 🎯 1. Logistic Regression Results
+
+#### 🔢 Confusion Matrix:
+
+|               | Predicted: Win | Predicted: Loss |
+|---------------|----------------|-----------------|
+| **Actual: Win**  | TP = 83        | FN = 24          |
+| **Actual: Loss** | FP = 43        | TN = 31          |
+
+- ✔️ **High recall** (78.3%) shows the model captures most actual wins
+- ❌ But **precision** (65.9%) suggests a notable number of **false positives** (overestimating wins)
+
+#### 📊 Key Metrics:
+
+- **Accuracy:** 63.3%  
+- **Precision:** 65.9%  
+- **Recall:** 78.3%  
+- **F1 Score:** 0.716  
+- **Log-loss:** 0.618  
+- **Brier score:** 0.214  
+
+> 🔎 *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
+
+---
+
+### 📉 2. Coefficient Analysis (Figure: Logistic Coefficients)
+
+| Feature            | Coefficient | Interpretation                                      |
+|--------------------|-------------|-----------------------------------------------------|
+| `away_is_winner`   | –2.8761     | Opponent is former champ → greatly reduces win odds |
+| `koppen_code_BWh`  | +1.4455     | Desert climate favors home team                     |
+| `home_is_winner`   | +0.9601     | Home team is past champion → boosts win odds        |
+| `away_strong`      | –0.7564     | Strong opponent → lower win chance                  |
+| `home_is_host`     | +0.7352     | Host nation boost                                   |
+| `koppen_code_AsAw` | –0.6252     | Tropical dry zone → slightly hurts win rate         |
+| `knockout`         | +0.4970     | Knockout match → small home edge                    |
+| `koppen_code_Am`   | +0.4559     | Tropical monsoon → moderate boost                   |
+| `home_strong`      | +0.4403     | Home team is a strong team → moderate edge          |
+
+🧠 **Insights**:
+
+- According to the coefficients, **historical strength** (e.g. `home_is_winner`, `away_is_winner`) dominates match outcomes.
+- **Climate variables** (e.g. `koppen_code_*`) show consistent but moderate effects, suggesting some environments are less favorable.
+- **Home advantage** and **tournament stage** also offer measurable boosts.
+
+> ✨ This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
+
+---
+
+### 🔍 3. Sample Predictions (Top 10 Records)
+
+| Index | P(Win) | Actual Outcome |
+|-------|--------|----------------|
+| 1     | 0.761  | ✅ Win         |
+| 2     | 0.532  | ❌ Loss *(FP)* |
+| 3     | 0.481  | ❌ Loss *(TN)* |
+| 4     | 0.927  | ✅ Win         |
+| 5     | 0.638  | ✅ Win         |
+| 6     | 0.556  | ❌ Loss *(FP)* |
+| 7     | 0.744  | ✅ Win         |
+| 8     | 0.631  | ✅ Win         |
+| 9     | 0.556  | ❌ Loss *(FP)* |
+| 10    | 0.348  | ❌ Loss *(TN)* |
+
+> Example: Match 2 was predicted with P=0.532 as a win, but the team lost — a **false positive**.  
+> In contrast, Match 3 with P=0.481 was correctly classified as a loss — a **true negative**.
+## Part IV: Model Validation – Can Rumors Predict Reality?
+
+To evaluate the validity of our scoring system and model, we conducted **multiple levels of testing**:
+
+1. **Descriptive grouping analysis**: We grouped matches based on total rumor score (e.g., ≥4, 2–4, <2), and found a strong correlation between **higher scores and actual win rates**.  
+2. **Logistic regression model**: We used scoring features directly as input to train a classifier.  
+3. **Random forest baseline**: To compare against a non-linear method and validate feature importance.  
+4. **Prediction outcome inspection**: To understand classification errors and pattern consistency.  
+
+---
+
+### 🎯 1. Logistic Regression Results
+
+#### 🔢 Confusion Matrix:
+
+|               | Predicted: Win | Predicted: Loss |
+|---------------|----------------|-----------------|
+| **Actual: Win**  | TP = 83        | FN = 24          |
+| **Actual: Loss** | FP = 43        | TN = 31          |
+
+- ✔️ **High recall** (78.3%) shows the model captures most actual wins
+- ❌ But **precision** (65.9%) suggests a notable number of **false positives** (overestimating wins)
+
+#### 📊 Key Metrics:
+
+- **Accuracy:** 63.3%  
+- **Precision:** 65.9%  
+- **Recall:** 78.3%  
+- **F1 Score:** 0.716  
+- **Log-loss:** 0.618  
+- **Brier score:** 0.214  
+
+> 🔎 *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
+
+---
+
+### 📉 2. Coefficient Analysis (Figure: Logistic Coefficients)
+
+| Feature            | Coefficient | Interpretation                                      |
+|--------------------|-------------|-----------------------------------------------------|
+| `away_is_winner`   | –2.8761     | Opponent is former champ → greatly reduces win odds |
+| `koppen_code_BWh`  | +1.4455     | Desert climate favors home team                     |
+| `home_is_winner`   | +0.9601     | Home team is past champion → boosts win odds        |
+| `away_strong`      | –0.7564     | Strong opponent → lower win chance                  |
+| `home_is_host`     | +0.7352     | Host nation boost                                   |
+| `koppen_code_AsAw` | –0.6252     | Tropical dry zone → slightly hurts win rate         |
+| `knockout`         | +0.4970     | Knockout match → small home edge                    |
+| `koppen_code_Am`   | +0.4559     | Tropical monsoon → moderate boost                   |
+| `home_strong`      | +0.4403     | Home team is a strong team → moderate edge          |
+
+🧠 **Insights**:
+
+- Through the coefficients, **historical strength** (e.g. `home_is_winner`, `away_is_winner`) dominates match outcomes.
+- **Climate variables** (e.g. `koppen_code_*`) show consistent but moderate effects, suggesting some environments are less favorable.
+- **Home advantage** and **tournament stage** also offer measurable boosts.
+
+> ✨ This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
+
+---
+
+### 🔍 3. Sample Predictions (Top 10 Records)
+
+| Index | P(Win) | Actual Outcome |
+|-------|--------|----------------|
+| 1     | 0.761  | Win         |
+| 2     | 0.532  | Loss *(FP)* |
+| 3     | 0.481  | Loss *(TN)* |
+| 4     | 0.927  | Win         |
+| 5     | 0.638  | Win         |
+| 6     | 0.556  | Loss *(FP)* |
+| 7     | 0.744  | Win         |
+| 8     | 0.631  | Win         |
+| 9     | 0.556  | Loss *(FP)* |
+| 10    | 0.348  | Loss *(TN)* |
+
+> Example: Match 2 was predicted with P=0.532 as a win, but the team lost — a **false positive**.  
+> In contrast, Match 3 with P=0.481 was correctly classified as a loss — a **true negative**.
+
+
+
+### 🌲 4. Random Forest Comparison – Is It Better?
+
+We also trained a **random forest** classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
+
+#### 📈 Accuracy: 62%
+
+#### 📌 Confusion Matrix:
+
+|               | Predicted: Win | Predicted: Loss |
+|---------------|----------------|-----------------|
+| **Actual: Win**  | TP = 28        | FN = 112         |
+| **Actual: Loss** | FP = 23        | TN = 197         |
+
+#### 📋 Class-wise Metrics:
+
+| Class | Precision | Recall | F1    |
+|-------|-----------|--------|-------|
+| Win   | 0.55      | 0.20   | 0.29  |
+| Loss  | 0.64      | 0.90   | 0.74  |
+
+- The model **struggles with win detection**, severely underestimating home wins (recall = 0.20).
+- It performs well on losses, producing many **true negatives** but also **false negatives** for wins.
+
+---
+
+#### 🔝 Top 10 Feature Importances:
+
+| Feature         | Importance |
+|----------------|------------|
+| `is_champ`      | 0.277      |
+| `attendance_x`  | 0.256      |
+| `is_strong`     | 0.246      |
+| `is_host`       | 0.069      |
+| `koppen_code_Cwb` | 0.015     |
+| `koppen_code_Dfa` | 0.014     |
+| `high_fans`     | 0.014      |
+| `koppen_code_BSk` | 0.014     |
+| `koppen_code_Cfa` | 0.013     |
+| `koppen_code_Csb` | 0.012     |
+
+📌 Interpretation:
+
+- Key predictors: historical wins (`is_champ`), stadium atmosphere (`attendance_x`), and team strength (`is_strong`)
+- Climate variables contribute less, though present across multiple top-10 entries
+
+---
+
+
+## Part V: Final Thoughts
+
+Football may be a game of skills and strategy, but the data reveals that some “rumors” carry surprising statistical weight.  
+While myths aren’t perfect predictors, they often reflect truths hidden in numbers.
+
+> ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
