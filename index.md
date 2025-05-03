@@ -2,7 +2,61 @@
 layout: default
 title: Welcome to Group 28's Website - Final Project
 ---
+<!-- Rainbow Scroll Progress Bar -->
+<style>
+  /* Container fixed at top */
+  #progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: transparent;
+    z-index: 9999;
+    opacity: 1;                   /* start visible; JS will adjust */
+    transition: opacity 0.3s ease;
+  }
+  /* The actual bar */
+  #progress-bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      red, orange, yellow, green, blue, indigo, violet
+    );
+    transition: width 0.2s ease-out;
+  }
+  /* Push page content down so it isn’t covered */
+  body {
+    padding-top: 6px;
+  }
+</style>
 
+<div id="progress-container">
+  <div id="progress-bar"></div>
+</div>
+
+<script>
+  const container = document.getElementById('progress-container');
+  const bar = document.getElementById('progress-bar');
+
+  window.addEventListener('scroll', () => {
+    const doc = document.documentElement;
+    const scrollTop = doc.scrollTop;
+    const scrollHeight = doc.scrollHeight - doc.clientHeight;
+    const pct = (scrollTop / scrollHeight) * 100;
+
+    // Update bar width
+    bar.style.width = pct + '%';
+
+    // Optional: hide until user scrolls more than 2%
+    container.style.opacity = pct > 2 ? '1' : '0';
+  });
+</script>
+
+
+
+---
 # Welcome to Group 28's Website - Final Project
 
 <!-- ——— FIFA ——— -->
@@ -35,7 +89,7 @@ title: Welcome to Group 28's Website - Final Project
 
 <!-- ——— Rumor Quiz —— -->
 <div id="messigame" style="border:1px solid #ddd; padding:16px; border-radius:8px; max-width:600px; margin:24px auto;">
-  <p><strong>🕵️ Rumor Quiz:</strong></p>
+  <p><strong> Rumor Quiz:</strong></p>
   <p>“Messi can help his team win” — do you think this is <strong>True</strong> or <strong>False</strong>?</p>
   <button id="messigame-true"  style="margin-right:8px; padding:8px 16px;">✔️ True</button>
   <button id="messigame-false" style="padding:8px 16px;">❌ False</button>
