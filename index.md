@@ -15,6 +15,7 @@ title: Welcome to Group 28's Website - Final Project
 </p>
 <!-- ————————————— —— -->
 
+
 <div style="text-align: center;">
     Written by:
 </div>
@@ -28,6 +29,37 @@ title: Welcome to Group 28's Website - Final Project
     Xiaosa Liu - s242649
 </div>
 
+** Let's Play a game first!**
+<!-- ——— Rumor Quiz —— 放在这里 —— -->
+<div id="messigame" style="border:1px solid #ddd; padding:16px; border-radius:8px; max-width:600px; margin:24px auto;">
+  <p><strong>🕵 Rumor Quiz:</strong></p>
+  <p>“Messi always guarantees a win” — do you think this is <strong>True</strong> or <strong>False</strong>?</p>
+  <button id="messigame-true" style="margin-right:8px; padding:8px 16px;">✔️ True</button>
+  <button id="messigame-false" style="padding:8px 16px;">❌ False</button>
+
+  <div id="messigame-result" style="display:none; margin-top:16px; background:#f9f9f9; padding:12px; border-radius:6px;">
+    <p id="messigame-feedback"></p>
+    <p><strong>Correct answer:</strong> True (This rumor is true.)</p>
+  </div>
+</div>
+
+<script>
+  const correct = 'true';
+  ['true','false'].forEach(ans => {
+    document.getElementById('messigame-'+ans).addEventListener('click', () => {
+      document.getElementById('messigame-true').disabled = true;
+      document.getElementById('messigame-false').disabled = true;
+      const fb = document.getElementById('messigame-feedback');
+      fb.textContent = ans === correct
+        ? '✅ You got it right!'
+        : '❌ Oops, that’s not correct.';
+      document.getElementById('messigame-result').style.display = 'block';
+    });
+  });
+</script>
+<!-- ———————————————————————— -->
+
+Why is correct, let's explain more!
 ---
 <a id="top"></a>
 *Table of Contents*  
