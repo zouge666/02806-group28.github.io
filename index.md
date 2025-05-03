@@ -35,7 +35,7 @@ title: Welcome to Group 28's Website - Final Project
 <!-- ——— Rumor Quiz ——  —— -->
 <div id="messigame" style="border:1px solid #ddd; padding:16px; border-radius:8px; max-width:600px; margin:24px auto;">
   <p><strong> Rumor Quiz:</strong></p>
-  <p>“Messi always guarantees a win” — do you think this is <strong>True</strong> or <strong>False</strong>?</p>
+  <p>“Messi can help his team win ” — do you think this is <strong>True</strong> or <strong>False</strong>?</p>
   <button id="messigame-true" style="margin-right:8px; padding:8px 16px;">✔️ True</button>
   <button id="messigame-false" style="padding:8px 16px;">❌ False</button>
 
@@ -61,8 +61,8 @@ title: Welcome to Group 28's Website - Final Project
       document.getElementById('messigame-false').disabled = true;
       const fb = document.getElementById('messigame-feedback');
       fb.textContent = ans === correct
-        ? '✅ You got it right!'
-        : '❌ Oops, that’s not correct.';
+        ? '✅ You got it right, This rumor is highly credible.!'
+        : '❌ Oops, that’s not correct. This rumor is highly credible.';
       document.getElementById('messigame-result').style.display = 'block';
     });
   });
