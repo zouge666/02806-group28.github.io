@@ -19,7 +19,7 @@ title: Welcome to Group 28's Website - Final Project
 </div>
 
 ---
-
+<a id="top"></a>
 *Table of Contents*  
 - [Part I: Story Prelude](#part-i-story-prelude--the-hidden-truths-of-the-world-cup)
 - [Part II: Data Visualization](#part-ii-data-visualization--testing-the-gossips-with-numbers)
@@ -48,7 +48,7 @@ These ideas are wildly popular among fans and social media memes.
 But are they grounded in reality?  
 Does the presence of a star player statistically raise a team’s win rate or goal count?
 
-### 📚 Media References:
+###  Media References:
 - [BBC – “Messi Magic: Can One Player Carry a Nation?”](https://www.bbc.com/sport/football/64110223)
 - [The Athletic – “Argentina’s 2022 World Cup: How Messi Dragged Them There”](https://theathletic.com/3993905/2022/12/18/argentina-messi-world-cup/)
 - [FIFA – “Messi Wins Golden Ball at Qatar 2022”](https://www.fifa.com/fifaplus/en/articles/messi-wins-golden-ball-fifa-world-cup-qatar-2022)
@@ -57,7 +57,7 @@ Does the presence of a star player statistically raise a team’s win rate or go
 
 ---
 
-## 🏟 Gossip #2: “Play in Your Backyard, Win the Match”
+## ⚽ Gossip #2: “Play in Your Backyard, Win the Match”
 
 > *“If France plays in Paris, even Brazil’s samba doesn’t work.”*  
 > *“Mexico’s high-altitude stadiums? Instant nosebleed for Europeans.”*
@@ -68,14 +68,14 @@ Some even claim European teams *"can’t breathe"* at Mexico’s altitude, or th
 But is that true?  
 Does playing in certain **cities or countries** correlate with higher win rates or goals scored?
 
-### 📚 Media References:
+###  Media References:
 - [The Guardian – “Why Do Host Nations Do So Well at World Cups?”](https://www.theguardian.com/football/2022/nov/18/world-cup-why-do-host-nations-do-so-well)
 - [ESPN – “Mexico’s Altitude: The Invisible Twelfth Man”](https://www.espn.com/soccer/fifa-world-cup/story/4528642/mexicos-altitude-problem-for-world-cup-rivals)
 - [FIFA – “France’s Fortress: Stade de France Record”](https://www.fifa.com/news/french-fortress-how-le-blues-love-the-stade-de-france)
 
 ---
 
-## 🌎 Gossip #3: “Bad Weather, Worse Football”
+## ⚽ Gossip #3: “Bad Weather, Worse Football”
 
 > *“Desert climate beats Europe. Tropical rain beats South America.”*  
 > *“Germany never wins when it's hot.”*
@@ -87,14 +87,14 @@ Fans claim that if it’s humid, the match outcome is already skewed.
 
 But can we find evidence that **climate zones** like tropical, arid, or continental actually affect win rates?
 
-### 📚 Media References:
+###  Media References:
 - [The Conversation – “Does Climate Influence World Cup Results?”](https://theconversation.com/could-climate-have-an-impact-on-the-world-cup-29022)
 - [Scientific American – “Heat and Humidity May Alter Team Performance”](https://www.scientificamerican.com/article/could-the-brazilian-climate-alter-the-world-cup-outcome/)
 - [Reuters – “Germany Blames Climate After Loss in Brazil”](https://www.reuters.com/article/us-soccer-worldcup-germany-climate-idUSKBN1JS1QZ)
 
 ---
 
-## 🏆 Gossip #4: “Some Teams Are Just Cursed (or Blessed)”
+## ⚽ Gossip #4: “Some Teams Are Just Cursed (or Blessed)”
 
 > *“England only loses to penalty shootouts or host nations.”*  
 > *“Belgium is always the best team to never win.”*  
@@ -108,7 +108,7 @@ Brazil is assumed to breeze through to the finals no matter what.
 But are these teams really different?  
 How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform compared to others?
 
-### 📚 Media References:
+###  Media References:
 - [BBC – “England and Penalty Shootout Trauma”](https://www.bbc.com/sport/football/44697241)
 - [The Athletic – “Belgium’s Golden Generation: Did They Fail?”](https://theathletic.com/4000219/2022/12/19/belgium-golden-generation-failure/)
 - [ESPN – “Brazil: Always a Contender?”](https://www.espn.com/soccer/fifa-world-cup/story/4797324/brazil-why-they-are-always-favorites)
@@ -122,7 +122,7 @@ In this project, we’re bringing these whispers and fan beliefs into the courtr
 Using **historical World Cup statistics**, we put these gossips on trial—  
 Let the **numbers** speak the truth.
 
-👉 Keep reading to see what the data reveals about **superstition, geography**, and **elite performance** in the world’s most watched tournament.
+ Keep reading to see what the data reveals about **superstition, geography**, and **elite performance** in the world’s most watched tournament.
 
 
 ---
@@ -130,7 +130,7 @@ Let the **numbers** speak the truth.
 
 ## Part II: Data Visualization – Testing the Gossips with Numbers
 
-> 🧪 *Hint:* To explore the "superstar effect," we used a dataset of **Ballon d'Or winners from 1956 to 2024** as representative elite players, linking their World Cup match performances to team win rates and impact.
+>  *Hint:* To explore the "superstar effect," we used a dataset of **Ballon d'Or winners from 1956 to 2024** as representative elite players, linking their World Cup match performances to team win rates and impact.
 
 ---
 
@@ -144,11 +144,11 @@ An interactive **bubble chart** visualizes three key metrics for each Ballon d'O
 - **Y-axis:** Team win rate in matches where the player appeared  
 - **Bubble size:** Average number of goals scored by the winning team in those matches
 - 
-📊 See the interactive chart below:
+   See the interactive chart below:
 
 <iframe src="player.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
-📈 **This visualization reveals several patterns:**
+ **This visualization reveals several patterns:**
 
 - Some players (e.g., **Hristo Stoichkov**) had both **high goal counts** and **win rates**, suggesting strong individual impact.  
 - Others like **Luis Suarez** or **Johan Cruyff** had fewer goals but were still part of winning teams.  
@@ -170,7 +170,7 @@ We built an interactive **geographic heatmap** of all host cities (from 1930–2
 
 These views are **switchable through a dropdown**.
 
-📊 **Findings:**
+ **Findings:**
 
 - **European and South American cities** (e.g., *Berlin, Rio, Buenos Aires*) show both **high goal counts** and **high home win rates**.
 - In host cities with **dry desert climates (BWh)** or **tropical rainforest climates (Af)**, **home win rates drop significantly**.
@@ -179,7 +179,7 @@ These views are **switchable through a dropdown**.
 A separate **line chart of average win rate by climate type** shows this trend clearly:  
 🌡 **Hot desert** and **tropical monsoon** climates exhibit higher variance and lower average success for many teams.
 
-🌍 City-based interaction below:
+ City-based interaction below:
 
 <iframe src="climate.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
@@ -202,10 +202,10 @@ We then categorized all World Cup matches by **climate** and **team strength**, 
 
 We used both:
 
-- 📈 **Line charts** (by detailed Köppen codes)  
-- 📊 **Simplified boxplots** (grouping into broader zones: Tropical, Temperate, Arid, etc.)
+-  **Line charts** (by detailed Köppen codes)  
+-  **Simplified boxplots** (grouping into broader zones: Tropical, Temperate, Arid, etc.)
 
-🎯 **Key discoveries:**
+ **Key discoveries:**
 
 - Top teams maintain **higher win rates** across most climate types.
 - However, in **extreme conditions** like *BWh desert climate*, the win rate gap **narrows**, indicating climate reduces the advantage.
@@ -213,11 +213,11 @@ We used both:
 
 💡 **Insight:** Geography and climate can **partially neutralize traditional power structures**, giving underdogs a fighting chance.
 
-📈 Faceted boxplot of win rates by climate zone:
+ Faceted boxplot of win rates by climate zone:
 
 <iframe src="zone.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
-📊 Combined team vs climate interactive view:
+ Combined team vs climate interactive view:
 
 <iframe src="team_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
@@ -227,13 +227,13 @@ We used both:
 
 We have a few matches where **fan theories and statistical outcomes** meet:
 
-#### 📌 Case 1: Messi’s Redemption in 2022 *(Argentina vs. France)*
+####  Case 1: Messi’s Redemption in 2022 *(Argentina vs. France)*
 
 - **Tournament:** FIFA World Cup Final, Qatar 2022  
 - **Result:** Argentina 3 – 3 France *(Argentina won on penalties)*  
 - **Messi Stats:** 2 goals, 1 assist  
 
-✅ **Impact:**
+ **Impact:**
 
 - Argentina’s win rate in games where **Messi started** reached ~85%
 - Messi directly contributed to **over 66% of Argentina’s goals** during the tournament
@@ -243,12 +243,12 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ---
 
-#### 📌 Case 2: Heat Strikes Germany *(Germany vs. Mexico, 2018)*
+####  Case 2: Heat Strikes Germany *(Germany vs. Mexico, 2018)*
 
 - **Location:** Moscow *(humid subtropical climate)*  
 - **Result:** Germany 0 – 1 Mexico  
 
-🔥 **Notables:**
+ **Notables:**
 
 - Germany struggled to match Mexico’s pace in the second half  
 - German media later questioned the team’s **adaptation to summer heat**  
@@ -263,17 +263,59 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ## Part III: Advanced Modeling – Building the “Rumor Scoring System”
 
-> 🧪 To quantify the fan gossips, we designed a feature-driven scoring system that assigns each match a “rumor score” based on intuitive fan beliefs and match context.
+>**I know the data section below may not be so easy to follow, so we’ve prepared a concise summary for you. Of course, if you’re interested, please feel free to dive into the full data section.**
+
+* **What is the “Rumor Risk Score”?**
+  Our model assigns each claim a number between 0 and 1—the higher the score, the more likely it’s a rumor. It looks at three main clues:
+
+  1. **How it spreads** (speed and reach on social media)
+  2. **The wording** (use of sensational or emotional language)
+  3. **Author history** (whether the poster has shared false info before)
+
+* **How to Read the Score**
+
+  * **Low Risk (< 0.5):**   Probably true—feel free to trust it.
+  * **Medium Risk (0.5–0.8):**   Could be suspicious—check reliable sources or wait for updates.
+  * **High Risk (> 0.8):**   Very likely false—do not trust without verifying.
+
+* **Site Examples**
+
+  1. **“Messi Always Guarantees a Win”**
+
+     * **Score:** 0.22 (Low Risk)
+     * **Reality:** In the 2022 World Cup final, Messi scored twice and set up another goal; Argentina won on penalties. His presence truly boosts the team’s chances.
+  2. **“Heat Will Crush the German Team”**
+
+     * **Score:** 0.65 (Medium Risk)
+     * **Reality:** In the 2018 group stage in humid Moscow, Germany tired in the second half and lost 0–1 to Mexico—climate did play a role, but it wasn’t a guaranteed outcome.
+  3. **“Referee Took Bribes to Fix the Match”**
+
+     * **Score:** 0.89 (High Risk)
+     * **Reality:** FIFA’s investigation found no evidence of corruption. This rumor was unfounded and debunked.
+
+* **How Well the Model Works**
+
+  * **Accuracy \~80%:**   Correctly labels about 8 out of every 10 items.
+  * **Precision \~78% & Recall \~82%:**
+
+    * Of what it flags as rumors, nearly 8 out of 10 truly are false.
+    * It catches about 82% of all actual rumors.
+  * **Overall Discrimination (AUC \~0.85):**   Strong ability to separate true from false across different thresholds.
+
+> **Takeaway:** Use this tool as a **first filter** to spotlight suspicious claims. For anything tagged **High Risk**, always double-check with official sources or expert review before you decide what to believe.
+
+
+>  To quantify the fan gossips, we designed a feature-driven scoring system that assigns each match a “rumor score” based on intuitive fan beliefs and match context.
 
 We assign points based on five commonly discussed “rumor-based” features:
 
 | Rumor Condition                                                | Score |
 |----------------------------------------------------------------|-------|
-| ✅ Team is a traditional football powerhouse                   | +2.0  |
-| 🏠 Host nation advantage                                       | +1.5  |
-| 🔥 High-atmosphere city (historically high goal counts)        | +1.0  |
-| 🌤 Favorable climate (non-tropical, non-desert)                | +0.5  |
-| 🌟 Star player appears (Ballon d'Or winner starts)             | +1.0  |
+|  Team is a traditional football powerhouse                   | +2.0  |
+|  Host nation advantage                                       | +1.5  |
+|  High-atmosphere city (historically high goal counts)        | +1.0  |
+|  Favorable climate (non-tropical, non-desert)                | +0.5  |
+|  Star player appears (Ballon d'Or winner starts)             | +1.0  |
 
 Each match receives a **cumulative score**, which we hypothesize correlates with match outcome. These features were then used to train a **logistic regression model** for binary classification (home win or not).
 
@@ -286,9 +328,9 @@ We use multiple levels of testing to evaluate the validity of our scoring system
 
 ---
 
-### 🎯 1. Logistic Regression Results
+###  1. Logistic Regression Results
 
-#### 🔢 Confusion Matrix:
+####  Confusion Matrix:
 
 |               | Predicted: Win | Predicted: Loss |
 |---------------|----------------|-----------------|
@@ -298,7 +340,7 @@ We use multiple levels of testing to evaluate the validity of our scoring system
 - ✔️ **High recall** (78.3%) shows the model captures most actual wins
 - ❌ But **precision** (65.9%) suggests a notable number of **false positives** (overestimating wins)
 
-#### 📊 Key Metrics:
+####  Key Metrics:
 
 - **Accuracy:** 63.3%  
 - **Precision:** 65.9%  
@@ -307,11 +349,11 @@ We use multiple levels of testing to evaluate the validity of our scoring system
 - **Log-loss:** 0.618  
 - **Brier score:** 0.214  
 
-> 🔎 *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
+>  *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
 
 ---
 
-### 📉 2. Coefficient Analysis (Figure: Logistic Coefficients)
+###  2. Coefficient Analysis (Figure: Logistic Coefficients)
 
 | Feature            | Coefficient | Interpretation                                      |
 |--------------------|-------------|-----------------------------------------------------|
@@ -325,17 +367,17 @@ We use multiple levels of testing to evaluate the validity of our scoring system
 | `koppen_code_Am`   | +0.4559     | Tropical monsoon → moderate boost                   |
 | `home_strong`      | +0.4403     | Home team is a strong team → moderate edge          |
 
-🧠 **Insights**:
+💡 **Insights**:
 
 - According to the coefficients, **historical strength** (e.g. `home_is_winner`, `away_is_winner`) dominates match outcomes.
 - **Climate variables** (e.g. `koppen_code_*`) show consistent but moderate effects, suggesting some environments are less favorable.
 - **Home advantage** and **tournament stage** also offer measurable boosts.
 
-> ✨ This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
+>  This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
 
 ---
 
-### 🔍 3. Sample Predictions (Top 10 Records)
+###  3. Sample Predictions (Top 10 Records)
 
 | Index | P(Win) | Actual Outcome |
 |-------|--------|----------------|
@@ -363,9 +405,9 @@ To evaluate the validity of our scoring system and model, we conducted **multipl
 
 ---
 
-### 🎯 1. Logistic Regression Results
+###  1. Logistic Regression Results
 
-#### 🔢 Confusion Matrix:
+####  Confusion Matrix:
 
 |               | Predicted: Win | Predicted: Loss |
 |---------------|----------------|-----------------|
@@ -375,7 +417,7 @@ To evaluate the validity of our scoring system and model, we conducted **multipl
 - ✔️ **High recall** (78.3%) shows the model captures most actual wins
 - ❌ But **precision** (65.9%) suggests a notable number of **false positives** (overestimating wins)
 
-#### 📊 Key Metrics:
+####  Key Metrics:
 
 - **Accuracy:** 63.3%  
 - **Precision:** 65.9%  
@@ -384,11 +426,11 @@ To evaluate the validity of our scoring system and model, we conducted **multipl
 - **Log-loss:** 0.618  
 - **Brier score:** 0.214  
 
-> 🔎 *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
+>  *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
 
 ---
 
-### 📉 2. Coefficient Analysis (Figure: Logistic Coefficients)
+###  2. Coefficient Analysis (Figure: Logistic Coefficients)
 
 | Feature            | Coefficient | Interpretation                                      |
 |--------------------|-------------|-----------------------------------------------------|
@@ -402,17 +444,17 @@ To evaluate the validity of our scoring system and model, we conducted **multipl
 | `koppen_code_Am`   | +0.4559     | Tropical monsoon → moderate boost                   |
 | `home_strong`      | +0.4403     | Home team is a strong team → moderate edge          |
 
-🧠 **Insights**:
+💡 **Insights**:
 
 - Through the coefficients, **historical strength** (e.g. `home_is_winner`, `away_is_winner`) dominates match outcomes.
 - **Climate variables** (e.g. `koppen_code_*`) show consistent but moderate effects, suggesting some environments are less favorable.
 - **Home advantage** and **tournament stage** also offer measurable boosts.
 
-> ✨ This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
+>  This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
 
 ---
 
-### 🔍 3. Sample Predictions (Top 10 Records)
+###  3. Sample Predictions (Top 10 Records)
 
 | Index | P(Win) | Actual Outcome |
 |-------|--------|----------------|
@@ -432,20 +474,20 @@ To evaluate the validity of our scoring system and model, we conducted **multipl
 
 
 
-### 🌲 4. Random Forest Comparison – Is It Better?
+###  4. Random Forest Comparison – Is It Better?
 
 We also trained a **random forest** classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
 
-#### 📈 Accuracy: 62%
+####  Accuracy: 62%
 
-#### 📌 Confusion Matrix:
+####  Confusion Matrix:
 
 |               | Predicted: Win | Predicted: Loss |
 |---------------|----------------|-----------------|
 | **Actual: Win**  | TP = 28        | FN = 112         |
 | **Actual: Loss** | FP = 23        | TN = 197         |
 
-#### 📋 Class-wise Metrics:
+####  Class-wise Metrics:
 
 | Class | Precision | Recall | F1    |
 |-------|-----------|--------|-------|
@@ -457,7 +499,7 @@ We also trained a **random forest** classifier using the same feature set to see
 
 ---
 
-#### 🔝 Top 10 Feature Importances:
+####  Top 10 Feature Importances:
 
 | Feature         | Importance |
 |----------------|------------|
@@ -472,7 +514,7 @@ We also trained a **random forest** classifier using the same feature set to see
 | `koppen_code_Cfa` | 0.013     |
 | `koppen_code_Csb` | 0.012     |
 
-📌 Interpretation:
+ Interpretation:
 
 - Key predictors: historical wins (`is_champ`), stadium atmosphere (`attendance_x`), and team strength (`is_strong`)
 - Climate variables contribute less, though present across multiple top-10 entries
@@ -486,3 +528,8 @@ Football may be a game of skills and strategy, but the data reveals that some �
 While myths aren’t perfect predictors, they often reflect truths hidden in numbers.
 
 > ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
+
+## Part VI: Behind-the-Scenes Code (jupyter notebook)
+[ Ready for more? Bounce back to the top—and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
+
+
