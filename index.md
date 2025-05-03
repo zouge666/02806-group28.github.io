@@ -26,7 +26,7 @@ title: Welcome to Group 28's Website - Final Project
 - [Part III: Advanced Modeling](#part-iii-advanced-modeling--building-the-rumor-scoring-system)
 - [Part IV: Model Validation](#part-iv-model-validation--can-rumors-predict-reality)
 - [Part V: Final Thoughts](#part-v-final-thoughts)
-- [Part VI: Behind-the-Scenes Code](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
+- [Part VI: Behind-the-Scenes Code (jupyter notebook)](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
 
 # Part I: Story Prelude – “The Hidden Truths” of the World Cup?
 
