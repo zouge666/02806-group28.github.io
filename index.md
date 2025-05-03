@@ -5,6 +5,16 @@ title: Welcome to Group 28's Website - Final Project
 
 # Welcome to Group 28's Website - Final Project
 
+<!-- ——— FIFA ——— -->
+<p style="margin:0; padding:0;">
+  <img
+    src="{{ '/fifa.webp' | relative_url }}"
+    alt="FIFA Banner"
+    style="display:block; width:100%; height:auto;"
+  />
+</p>
+<!-- ————————————— —— -->
+
 <div style="text-align: center;">
     Written by:
 </div>
