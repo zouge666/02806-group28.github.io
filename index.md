@@ -29,10 +29,10 @@ title: Welcome to Group 28's Website - Final Project
     Xiaosa Liu - s242649
 </div>
 
-** Let's Play a game first!**
+# Let's Play a game first!
 <!-- ——— Rumor Quiz —— 放在这里 —— -->
 <div id="messigame" style="border:1px solid #ddd; padding:16px; border-radius:8px; max-width:600px; margin:24px auto;">
-  <p><strong>🕵 Rumor Quiz:</strong></p>
+  <p><strong> Rumor Quiz:</strong></p>
   <p>“Messi always guarantees a win” — do you think this is <strong>True</strong> or <strong>False</strong>?</p>
   <button id="messigame-true" style="margin-right:8px; padding:8px 16px;">✔️ True</button>
   <button id="messigame-false" style="padding:8px 16px;">❌ False</button>
