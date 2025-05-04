@@ -207,9 +207,12 @@ Fans claim that if it’s humid, the match outcome is already skewed.
 But can we find evidence that **climate zones** like tropical, arid, or continental actually affect win rates?
 
 ###  Media References:
-- [The Conversation – “Does Climate Influence World Cup Results?”](https://theconversation.com/could-climate-have-an-impact-on-the-world-cup-29022)
-- [Scientific American – “Heat and Humidity May Alter Team Performance”](https://www.scientificamerican.com/article/could-the-brazilian-climate-alter-the-world-cup-outcome/)
-- [Reuters – “Germany Blames Climate After Loss in Brazil”](https://www.reuters.com/article/us-soccer-worldcup-germany-climate-idUSKBN1JS1QZ)
+<iframe width="640" height="360"
+        src="https://www.youtube.com/embed/DULRhm6i70I"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
 
 ---
 
