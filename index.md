@@ -228,9 +228,12 @@ But are these teams really different?
 How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform compared to others?
 
 ###  Media References:
-- [BBC – “England and Penalty Shootout Trauma”](https://www.bbc.com/sport/football/44697241)
-- [The Athletic – “Belgium’s Golden Generation: Did They Fail?”](https://theathletic.com/4000219/2022/12/19/belgium-golden-generation-failure/)
-- [ESPN – “Brazil: Always a Contender?”](https://www.espn.com/soccer/fifa-world-cup/story/4797324/brazil-why-they-are-always-favorites)
+<iframe width="640" height="360"
+        src="https://www.youtube.com/embed/3FStfLzka18"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
 
 ---
 
