@@ -162,11 +162,8 @@ But are they grounded in reality?
 Does the presence of a star player statistically raise a team’s win rate or goal count?
 
 ###  Media References:
-- [BBC – “Messi Magic: Can One Player Carry a Nation?”](https://www.bbc.com/sport/football/64110223)
-- [The Athletic – “Argentina’s 2022 World Cup: How Messi Dragged Them There”](https://theathletic.com/3993905/2022/12/18/argentina-messi-world-cup/)
-- [FIFA – “Messi Wins Golden Ball at Qatar 2022”](https://www.fifa.com/fifaplus/en/articles/messi-wins-golden-ball-fifa-world-cup-qatar-2022)
-- [Marca – “Cristiano Ronaldo’s Style and Superstition”](https://www.marca.com/en/football/real-madrid/2020/04/07/5e8bfe90ca4741de128b45f1.html)
-- [Goal.com – “CR7: Superstitions, Haircuts & Goals”](https://www.goal.com/en/lists/cristiano-ronaldo-superstitions-haircuts-goals/blt9645a5a7758fc12e)
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=jV0PbW8fJKk" frameborder="0" allowfullscreen></iframe>
+
 
 ---
 
