@@ -185,9 +185,12 @@ But is that true?
 Does playing in certain **cities or countries** correlate with higher win rates or goals scored?
 
 ###  Media References:
-- [The Guardian – “Why Do Host Nations Do So Well at World Cups?”](https://www.theguardian.com/football/2022/nov/18/world-cup-why-do-host-nations-do-so-well)
-- [ESPN – “Mexico’s Altitude: The Invisible Twelfth Man”](https://www.espn.com/soccer/fifa-world-cup/story/4528642/mexicos-altitude-problem-for-world-cup-rivals)
-- [FIFA – “France’s Fortress: Stade de France Record”](https://www.fifa.com/news/french-fortress-how-le-blues-love-the-stade-de-france)
+<iframe width="640" height="360"
+        src="https://www.youtube.com/embed/bbMAslBzvCg"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
 
 ---
 
