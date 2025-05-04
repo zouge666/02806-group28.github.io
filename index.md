@@ -126,7 +126,7 @@ title: Welcome to Group 28's Website - Final Project
 
 <!-- ———————————————————————— -->
 
-Why is this correct? Let’s explain more!
+Why like that? Let’s explain more!
 
 
 
