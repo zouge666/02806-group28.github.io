@@ -310,27 +310,27 @@ Some legendary players (e.g., George Weah) never even appeared in the World Cup 
 
 Having a Ballon d'Or player is correlated with higher win rates.
 
-### 2. Do Loud Crowds Really Mean More Goals?
+### 2. Play in Your Backyard, Win the Match?
 
-Fan theories often claim that a packed stadium boosts attacking energy.
+Supporters swear that a home crowd, local climate and zero travel turn host nations into giants.
+So we compared every World-Cup match where a team played as the tournament’s host (blue curve) with all other matches (orange curve).
 
-But what does the data show?
+<iframe src="host_winrate_kde.html" style="width: 100%; height: 380px; border: none;"></iframe>
 
-We grouped all matches by attendance level — above or below the median — and compared average goals scored.
+#### What does the data show:
 
-<iframe src="host_distribution.html" style="width: 100%; height: 380px; border: none;"></iframe>
-
-#### Surprising result:
-
-- Low Attendance games averaged 2.83 goals  
-- High Attendance games averaged only 2.63 goals
-
-This goes against the common belief.
+Host teams average ≈ 0.74 win-rate
+Non-hosts average ≈ 0.46 win-rate
+That’s almost a 30-point jump — the KDE curve for hosts is clearly shifted to the right.
 
 #### Why might this be?
 
-- Many high-attendance games are knockout matches or finals, where teams play more cautiously.
-- Lower-attendance matches, like group stage games, often see more open play and higher goal counts. A louder stadium doesn’t necessarily mean more goals — tension, stakes, and strategy matter more.
+Crowd & familiarity – constant local support and knowledge of the stadium conditions.
+Reduced fatigue – no cross-continent travel, jet-lag or altitude shock for the home side.
+Psychological lift – national expectation can boost motivation.
+Selection bias – host nations are often automatic qualifiers; weaker hosts (e.g., South Africa 2010, Qatar 2022) show the curve’s lower tail, proving advantage ≠ certainty.
+
+The numbers back the gossip — playing in your own backyard does raise the odds of winning, though elite visiting teams can still spoil the party.
 
 ---
 
