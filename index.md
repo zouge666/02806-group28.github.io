@@ -658,7 +658,18 @@ We also trained a **random forest** classifier using the same feature set to see
 - Climate variables contribute less, though present across multiple top-10 entries
 
 ---
+### 🧪 Validation Methods Overview
 
+| Method                            | Type                   | Accuracy / Metrics Used                   | Purpose / Insight                                                                 |
+|-----------------------------------|------------------------|-------------------------------------------|------------------------------------------------------------------------------------|
+| Logistic Regression               | ✅ Model Validation     | Accuracy: 63.3%, F1: 0.716, Recall: 78.3% | Evaluate how well scoring features predict match outcomes                         |
+| Random Forest                     | ✅ Model Validation     | Accuracy: 62%, Recall (win): 20%          | Test robustness with non-linear boundaries and assess feature importance          |
+| Prediction Inspection             | ✅ Model Validation     | N/A (manual examples)                     | Check how probabilities align with real results in individual cases               |
+| Coefficient Analysis              | ✅ Model Interpretation | Coefficients (e.g., –2.87, +0.96, etc.)   | Explain model logic: which features strongly affect win prediction                |
+| Descriptive Grouping by Score     | ❌ Score System Check   | Win Rate by score group (e.g., ≥4 → 70%)  | Check if higher “rumor scores” correspond to higher actual win probability        |
+| Feature Importance (Random Forest)| ❌ Score Logic Check    | Importance values (e.g., 0.277, 0.256)     | Validate if the scoring factors are actually influential in the model’s outcome   |
+
+---
 
 ## Part V: Final Thoughts
 
