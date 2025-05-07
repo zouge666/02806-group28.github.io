@@ -188,13 +188,19 @@ Some even claim European teams *"can’t breathe"* at Mexico’s altitude, or th
 But is that true?  
 Does playing in certain **cities or countries** correlate with higher win rates or goals scored?
 
-####  Media References:
+####  References:
+
+[Reddit](https://www.reddit.com/r/football/comments/1auokgt/why_doesnt_the_altitude_problem_seems_to_exist_in/)
+
+<!--
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/bbMAslBzvCg"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>
+-->
+
 
 ---
 
