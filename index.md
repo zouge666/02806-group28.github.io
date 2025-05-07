@@ -301,70 +301,59 @@ Some legendary players (e.g., George Weah) never even appeared in the World Cup 
 
 Having a Ballon d'Or player is correlated with higher win rates.
 
-### 2. Does Geography—or Fan Atmosphere—Affect the Game?
+## 2. Do Loud Crowds Really Mean More Goals?
 
-We move next to the host cities and ask: **Are some places naturally better for scoring or winning?**
+Fan theories often claim that a packed stadium boosts attacking energy.
 
-We built an interactive **geographic heatmap** of all host cities (from 1930–2018), overlaid with:
+But what does the data show?
 
-- Total **goals scored per city**
-- **Home team win rate** per city
-- **Köppen climate classification** of each location
+We grouped all matches by attendance level — above or below the median — and compared average goals scored.
 
-These views are **switchable through a dropdown**.
+<iframe src="fan_atmosphere_goals.html" style="width: 100%; height: 480px; border: none;"></iframe>
 
- **Findings:**
+### Surprising result:
 
-- **European and South American cities** (e.g., *Berlin, Rio, Buenos Aires*) show both **high goal counts** and **high home win rates**.
-- In host cities with **dry desert climates (BWh)** or **tropical rainforest climates (Af)**, **home win rates drop significantly**.
-- **Climate conditions**—especially heat, humidity, or altitude—may disadvantage teams not used to such environments.
+- Low Attendance games averaged 2.83 goals  
+- High Attendance games averaged only 2.63 goals
 
-A separate **line chart of average win rate by climate type** shows this trend clearly:  
-🌡 **Hot desert** and **tropical monsoon** climates exhibit higher variance and lower average success for many teams.
+This goes against the common belief.
 
- City-based interaction below:
+### Why might this be?
 
-<iframe src="climate.html" style="width: 100%; height: 520px; border: none;"></iframe>
+- Many high-attendance games are knockout matches or finals, where teams play more cautiously.
+- Lower-attendance matches, like group stage games, often see more open play and higher goal counts. A louder stadium doesn’t necessarily mean more goals — tension, stakes, and strategy matter more.
 
-🌡 Climate average win rate line chart:
+---
+
+## 3. Climate Conditions: Do Harsh Environments Suppress Performance?
+
+We then examined whether the natural environment—heat, humidity, or altitude—affects play.
+
+Using Köppen climate zones, we visualized the average win rate across different climates:
 
 <iframe src="ave_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
+Dry deserts (BWh) and tropical zones (Af, Am) show lower average win rates, possibly due to unfamiliar or taxing conditions.
+
 ---
 
-### 3. Are Famous Teams Always Better, Even in Harsh Conditions?
+## Combined Analysis: When Fan Atmosphere Meets Harsh Weather
 
-To test this, we defined a group of **“top teams”** including:
+To explore how these factors interact with team strength, we compared top-tier national teams (e.g., Brazil, France, Germany) against others across climates.
 
-> 🇧🇷 Brazil, 🇦🇷 Argentina, 🇫🇷 France, 🇩🇪 Germany, 🇧🇪 Belgisch (replacing England), 🇮🇹 Italy, 🇪🇸 Spain, 🇳🇱 Netherlands, 🇵🇹 Portugal.
-
-We then categorized all World Cup matches by **climate** and **team strength**, comparing:
-
-- Win rates of **top teams vs other teams**
-- Performance in **different climate zones** and **cities**
-
-We used both:
-
--  **Line charts** (by detailed Köppen codes)  
--  **Simplified boxplots** (grouping into broader zones: Tropical, Temperate, Arid, etc.)
-
- **Key discoveries:**
-
-- Top teams maintain **higher win rates** across most climate types.
-- However, in **extreme conditions** like *BWh desert climate*, the win rate gap **narrows**, indicating climate reduces the advantage.
-- In **tropical zones**, **variance is higher**—some strong teams perform poorly, others thrive.
-
-💡 **Insight:** Geography and climate can **partially neutralize traditional power structures**, giving underdogs a fighting chance.
-
- Faceted boxplot of win rates by climate zone:
+Boxplot view by broad climate zones:
 
 <iframe src="zone.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
- Combined team vs climate interactive view:
+Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
----
+### What we found:
+
+- Top teams generally outperform others, but their advantage shrinks in extreme conditions.
+- In tropical or desert climates, underdogs can close the gap, possibly because environment levels the playing field.
+
 
 ### 4. Case Studies – When Gossip Meets Reality
 
