@@ -161,13 +161,17 @@ These ideas are wildly popular among fans and social media memes.
 But are they grounded in reality?  
 Does the presence of a star player statistically raise a team’s win rate or goal count?
 
-####  Media References:
+####   References:
+[Valverde：always a big advantage to have messi](https://tribuna.com/en/news/fcbarcelona-2020-03-06-valverde-always-a-big-advantage-to-have-messi/)
+
+<!--
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/lu6HCi1U-Cw"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen>
 </iframe>
+-->
 
 
 
