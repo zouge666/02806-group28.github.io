@@ -318,7 +318,7 @@ But what does the data show?
 
 We grouped all matches by attendance level — above or below the median — and compared average goals scored.
 
-<iframe src="fan_atmosphere_goals.html" style="width: 100%; height: 480px; border: none;"></iframe>
+<iframe src="host_distribution.html" style="width: 100%; height: 380px; border: none;"></iframe>
 
 #### Surprising result:
 
