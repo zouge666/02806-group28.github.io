@@ -261,27 +261,45 @@ Let the **numbers** speak the truth.
 
 ### 1. Do Superstar Players Actually Boost Win Rates?
 
-We examined how Ballon d'Or winners performed at the World Cup. These are some of the most legendary names in football—**Messi, Ronaldo, Modric, Zidane**. But how much did their individual presence influence team results?
+One of the most popular fan theories says:
 
-An interactive **bubble chart** visualizes three key metrics for each Ballon d'Or player:
+> "If a Ballon d'Or winner is on the field, the team is more likely to win."
 
-- **X-axis:** Total goals scored by the player  
-- **Y-axis:** Team win rate in matches where the player appeared  
-- **Bubble size:** Average number of goals scored by the winning team in those matches
-- 
-   See the interactive chart below:
+To test this, we grouped all World Cup matches by whether any Ballon d'Or winner was playing.
+
+#### Star vs Non-Star Matches
+
+<iframe src="winrate.html" style="width: 100%; height: 480px; border: none;"></iframe>
+
+Teams with Ballon d'Or players had a 53.6% win rate.  
+Teams without them had only 35.9%.
+
+This difference suggests that star players tend to appear in better-performing teams.  
+But correlation does not imply causation — is it the star power, or simply that strong teams have star players?
+
+---
+
+#### What Do Individual Players Actually Contribute?
+
+To dive deeper, we visualized each Ballon d'Or winner’s World Cup performance in a bubble chart:
 
 <iframe src="player.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
- **This visualization reveals several patterns:**
+- **X-axis:** Player’s total goals  
+- **Y-axis:** Win rate of their team when they played  
+- **Bubble size:** Average goals scored by the winning team
 
-- Some players (e.g., **Hristo Stoichkov**) had both **high goal counts** and **win rates**, suggesting strong individual impact.  
-- Others like **Luis Suarez** or **Johan Cruyff** had fewer goals but were still part of winning teams.  
-- A few, surprisingly, had **zero wins** despite appearances—implying star power doesn’t guarantee victory.
+#### Interpretation
 
-💡 **Insight:** While not all stars guarantee wins, having a top-performing player correlates with better offensive performance (as shown by higher winning team goal counts).
+Some players (e.g., Stoichkov, Messi) combined high goal counts with high win rates, showing strong impact.  
+Others (e.g., Cruyff, Modric) played well but in teams with mixed results.  
+Some legendary players (e.g., George Weah) never even appeared in the World Cup despite winning the Ballon d'Or.
 
 ---
+
+#### Conclusion
+
+Having a Ballon d'Or player is correlated with higher win rates.
 
 ### 2. Does Geography—or Fan Atmosphere—Affect the Game?
 
