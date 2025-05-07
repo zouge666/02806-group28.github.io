@@ -315,11 +315,9 @@ Having a Ballon d'Or player is correlated with higher win rates.
 Supporters swear that a home crowd, local climate and zero travel turn host nations into giants.
 So we compared every World-Cup match where a team played as the tournament’s host (blue curve) with all other matches (orange curve).
 
-<p>
-  <img src="{{ '/host_ana.svg' | relative_url }}"
-       style="width:100%; height:auto;"
-       alt="Host vs Non-Host KDE">
-</p>
+<img src="{{ '/host_ana.svg' | relative_url }}"
+     style="width:100%; height:auto;" alt="Host KDE">
+
 
 #### What does the data show:
 
