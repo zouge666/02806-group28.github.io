@@ -269,7 +269,7 @@ To test this, we grouped all World Cup matches by whether any Ballon d'Or winner
 
 #### Star vs Non-Star Matches
 
-<iframe src="winrate.html" style="width: 100%; height: 480px; border: none;"></iframe>
+<iframe src="winrate_gauge.html" style="width: 100%; height: 480px; border: none;"></iframe>
 
 Teams with Ballon d'Or players had a 53.6% win rate.  
 Teams without them had only 35.9%.
