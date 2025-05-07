@@ -329,11 +329,19 @@ This goes against the common belief.
 
 We then examined whether the natural environment—heat, humidity, or altitude—affects play.
 
-Using Köppen climate zones, we visualized the average win rate across different climates:
+Using Köppen climate zones, we created two visualizations:
+
+1. Geographic climate-coded host cities:
+
+<iframe src="climate.html" style="width: 100%; height: 520px; border: none;"></iframe>
+2. Average team win rate by climate type:
 
 <iframe src="ave_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
+These charts show that:
 
-Dry deserts (BWh) and tropical zones (Af, Am) show lower average win rates, possibly due to unfamiliar or taxing conditions.
+Matches played in dry desert (BWh) and tropical rainforest (Af) climates tend to have lower win rates.
+
+Unfamiliar or physically challenging environments likely reduce overall team effectiveness.
 
 ---
 
@@ -663,5 +671,3 @@ While myths aren’t perfect predictors, they often reflect truths hidden in num
 
 ## Part VI: Behind-the-Scenes Code (jupyter notebook)
 [ Ready for more? Bounce back to the top—and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
-
-
