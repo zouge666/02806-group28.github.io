@@ -141,7 +141,7 @@ Why like that? Let’s explain more!
 - [Part V: Final Thoughts](#part-v-final-thoughts)
 - [Part VI: Behind-the-Scenes Code (jupyter notebook)](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
 
-# Part I: Story Prelude – “The Hidden Truths” of the World Cup?
+## Part I: Story Prelude – “The Hidden Truths” of the World Cup?
 
 Every four years, as the FIFA World Cup takes center stage, whispers and "unwritten rules" begin circulating among fans. These rumors, myths, and superstitions may not be scientific—but they're amusing, emotional, and often oddly persistent.
 
@@ -150,7 +150,7 @@ We’ve handpicked some of the most viral World Cup gossips for you.
 
 ---
 
-## ⚽ Gossip #1: “If You’ve Got Messi or Ronaldo, You’ve Already Won”
+### ⚽ Gossip #1: “If You’ve Got Messi or Ronaldo, You’ve Already Won”
 
 > *“Bro, it’s Messi. Argentina’s basically already 1–0 up before kickoff.”*  
 > *“If Ronaldo’s hair doesn’t move, the defense won’t either.”*
@@ -161,7 +161,7 @@ These ideas are wildly popular among fans and social media memes.
 But are they grounded in reality?  
 Does the presence of a star player statistically raise a team’s win rate or goal count?
 
-###  Media References:
+####  Media References:
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/lu6HCi1U-Cw"
         frameborder="0"
@@ -173,7 +173,7 @@ Does the presence of a star player statistically raise a team’s win rate or go
 
 ---
 
-## ⚽ Gossip #2: “Play in Your Backyard, Win the Match”
+### ⚽ Gossip #2: “Play in Your Backyard, Win the Match”
 
 > *“If France plays in Paris, even Brazil’s samba doesn’t work.”*  
 > *“Mexico’s high-altitude stadiums? Instant nosebleed for Europeans.”*
@@ -184,7 +184,7 @@ Some even claim European teams *"can’t breathe"* at Mexico’s altitude, or th
 But is that true?  
 Does playing in certain **cities or countries** correlate with higher win rates or goals scored?
 
-###  Media References:
+####  Media References:
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/bbMAslBzvCg"
         frameborder="0"
@@ -194,7 +194,7 @@ Does playing in certain **cities or countries** correlate with higher win rates 
 
 ---
 
-## ⚽ Gossip #3: “Bad Weather, Worse Football”
+### ⚽ Gossip #3: “Bad Weather, Worse Football”
 
 > *“Desert climate beats Europe. Tropical rain beats South America.”*  
 > *“Germany never wins when it's hot.”*
@@ -206,7 +206,7 @@ Fans claim that if it’s humid, the match outcome is already skewed.
 
 But can we find evidence that **climate zones** like tropical, arid, or continental actually affect win rates?
 
-###  Media References:
+####  Media References:
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/DULRhm6i70I"
         frameborder="0"
@@ -216,7 +216,7 @@ But can we find evidence that **climate zones** like tropical, arid, or continen
 
 ---
 
-## ⚽ Gossip #4: “Some Teams Are Just Cursed (or Blessed)”
+### ⚽ Gossip #4: “Some Teams Are Just Cursed (or Blessed)”
 
 > *“England only loses to penalty shootouts or host nations.”*  
 > *“Belgium is always the best team to never win.”*  
@@ -230,7 +230,7 @@ Brazil is assumed to breeze through to the finals no matter what.
 But are these teams really different?  
 How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform compared to others?
 
-###  Media References:
+####  Media References:
 <iframe width="640" height="360"
         src="https://www.youtube.com/embed/3FStfLzka18"
         frameborder="0"
@@ -240,7 +240,7 @@ How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform
 
 ---
 
-## ❓So... Are These Myths Real or Just Football Folklore?
+### ❓So... Are These Myths Real or Just Football Folklore?
 
 In this project, we’re bringing these whispers and fan beliefs into the courtroom of **data**.
 
@@ -279,7 +279,7 @@ But correlation does not imply causation — is it the star power, or simply tha
 
 ---
 
-#### What Do Individual Players Actually Contribute?
+### What Do Individual Players Actually Contribute?
 
 To dive deeper, we visualized each Ballon d'Or winner’s World Cup performance in a bubble chart:
 
@@ -289,19 +289,17 @@ To dive deeper, we visualized each Ballon d'Or winner’s World Cup performance 
 - **Y-axis:** Win rate of their team when they played  
 - **Bubble size:** Average goals scored by the winning team
 
-#### Interpretation
+##### Interpretation
 
 Some players (e.g., Stoichkov, Messi) combined high goal counts with high win rates, showing strong impact.  
 Others (e.g., Cruyff, Modric) played well but in teams with mixed results.  
 Some legendary players (e.g., George Weah) never even appeared in the World Cup despite winning the Ballon d'Or.
 
----
-
-#### Conclusion
+##### Conclusion
 
 Having a Ballon d'Or player is correlated with higher win rates.
 
-## 2. Do Loud Crowds Really Mean More Goals?
+### 2. Do Loud Crowds Really Mean More Goals?
 
 Fan theories often claim that a packed stadium boosts attacking energy.
 
@@ -311,21 +309,21 @@ We grouped all matches by attendance level — above or below the median — and
 
 <iframe src="fan_atmosphere_goals.html" style="width: 100%; height: 480px; border: none;"></iframe>
 
-### Surprising result:
+#### Surprising result:
 
 - Low Attendance games averaged 2.83 goals  
 - High Attendance games averaged only 2.63 goals
 
 This goes against the common belief.
 
-### Why might this be?
+#### Why might this be?
 
 - Many high-attendance games are knockout matches or finals, where teams play more cautiously.
 - Lower-attendance matches, like group stage games, often see more open play and higher goal counts. A louder stadium doesn’t necessarily mean more goals — tension, stakes, and strategy matter more.
 
 ---
 
-## 3. Climate Conditions: Do Harsh Environments Suppress Performance?
+### 3. Climate Conditions: Do Harsh Environments Suppress Performance?
 
 We then examined whether the natural environment—heat, humidity, or altitude—affects play.
 
@@ -345,7 +343,7 @@ Unfamiliar or physically challenging environments likely reduce overall team eff
 
 ---
 
-## Combined Analysis: When Fan Atmosphere Meets Harsh Weather
+### Combined Analysis: When Fan Atmosphere Meets Harsh Weather
 
 To explore how these factors interact with team strength, we compared top-tier national teams (e.g., Brazil, France, Germany) against others across climates.
 
@@ -357,17 +355,17 @@ Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
-### What we found:
+#### What we found:
 
 - Top teams generally outperform others, but their advantage shrinks in extreme conditions.
 - In tropical or desert climates, underdogs can close the gap, possibly because environment levels the playing field.
 
 
-### 4. Case Studies – When Gossip Meets Reality
+## 4. Case Studies – When Gossip Meets Reality
 
 We have a few matches where **fan theories and statistical outcomes** meet:
 
-####  Case 1: Messi’s Redemption in 2022 *(Argentina vs. France)*
+###  Case 1: Messi’s Redemption in 2022 *(Argentina vs. France)*
 
 - **Tournament:** FIFA World Cup Final, Qatar 2022  
 - **Result:** Argentina 3 – 3 France *(Argentina won on penalties)*  
@@ -383,7 +381,7 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ---
 
-####  Case 2: Heat Strikes Germany *(Germany vs. Mexico, 2018)*
+###  Case 2: Heat Strikes Germany *(Germany vs. Mexico, 2018)*
 
 - **Location:** Moscow *(humid subtropical climate)*  
 - **Result:** Germany 0 – 1 Mexico  
