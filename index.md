@@ -287,7 +287,7 @@ To dive deeper, we visualized each Ballon d'Or winner’s World Cup performance 
 
 - **X-axis:** Player’s total goals  
 - **Y-axis:** Win rate of their team when they played  
-- **Bubble size:** Average goals scored by the winning team
+- **Bubble size:** The average number of goals scored by the winning team in the games won by the player
 
 ##### Interpretation
 
