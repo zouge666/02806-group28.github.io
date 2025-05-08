@@ -348,7 +348,7 @@ Using Köppen climate zones, we created two visualizations:
 
 2. Average team win rate by climate type:
 
-<iframe src="ave_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
+<iframe src="ave_rate.html" style="width: 100%; height: 520px; border: none;"></iframe>
 
 These charts show that:
 
