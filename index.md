@@ -344,7 +344,7 @@ Using Köppen climate zones, we created two visualizations:
 
 1. Geographic climate-coded host cities:
 
-<iframe src="climate.html" style="width: 100%; height: 520px; border: none;"></iframe>
+<iframe src="climate.html" style="width: 100%; height: 80vh; border: none; max-width: 100%;" allowfullscreen></iframe>
 2. Average team win rate by climate type:
 
 <iframe src="ave_cli.html" style="width: 100%; height: 520px; border: none;"></iframe>
