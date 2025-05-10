@@ -140,7 +140,7 @@ Why is this the case? Keep reading!
 
 ## Part I: Story Prelude – “The Hidden Truths” of the World Cup?
 
-Every four years, as the FIFA World Cup takes center stage, whispers and "unwritten rules" begin circulating among fans. These rumors, myths, and superstitions may not be scientific—but they're amusing, emotional, and often oddly persistent.
+Every four years, as the FIFA World Cup takes center stage, whispers and "unwritten rules" begin circulating among fans. These rumors, myths, and superstitions may not be scientific, but they're amusing, emotional, and often oddly persistent.
 
 We’ve handpicked some of the most viral World Cup gossips for you.  
 **How many have you heard before?**
