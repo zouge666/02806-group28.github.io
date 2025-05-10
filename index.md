@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to Group 28's Website - Final Project
+title: Welcome to Group 28's Website - Final Project - FIFA Gossip
 ---
 <!-- Rainbow Scroll Progress Bar -->
 <style>
