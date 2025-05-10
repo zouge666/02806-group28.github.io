@@ -319,9 +319,9 @@ So we compared every World-Cup match where a team played as the tournament’s h
 
 #### What does the data show:
 
-Host teams average ≈ 0.74 win-rate
-Non-hosts average ≈ 0.46 win-rate
-That’s almost a 30-point jump, the KDE curve for hosts is clearly shifted to the right.
+<p>Host teams average ≈ 0.74 win-rate<p>
+<p>Non-hosts average ≈ 0.46 win-rate<p>
+<p>That’s almost a 30-point jump; the KDE curve for hosts is clearly shifted to the right.<p>
 
 #### Why might this be?
 
