@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: default
 title: Welcome to Group 28's Website - Final Project - FIFA Gossip
 ---
 <!-- Rainbow Scroll Progress Bar -->
@@ -369,6 +369,9 @@ Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 488px; border: none;"></iframe>
 <p></p>
+<!-- break -->
+
+&nbsp;
 
 #### What we found:
 
