@@ -369,7 +369,7 @@ Boxplot view by broad climate zones:
 
 Detailed interactive view by city and team group:
 
-<iframe src="team_cli.html" style="width: 100%; height: 628px; border: none;"></iframe>
+<iframe src="team_cli.html" style="width: 100%; height: 488px; border: none;"></iframe>
 
 #### What we found:
 
