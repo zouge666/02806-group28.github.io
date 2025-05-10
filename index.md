@@ -368,6 +368,7 @@ Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 488px; border: none;"></iframe>
 <p></p>
+
 #### What we found:
 
 - Top teams generally outperform others, but their advantage shrinks in extreme conditions.
