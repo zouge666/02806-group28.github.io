@@ -363,7 +363,7 @@ To explore how these factors interact with team strength, we compared top-tier n
 Boxplot view by broad climate zones:
 <p></p>
 <iframe src="zone.html" style="width: 100%; height: 820px; border: none;"></iframe>
-
+<p></p>
 Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 488px; border: none;"></iframe>
