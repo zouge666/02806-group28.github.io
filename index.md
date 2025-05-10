@@ -124,7 +124,7 @@ title: Welcome to Group 28's Website - Final Project - FIFA Gossip
 
 <!-- ———————————————————————— -->
 
-Why like that? Let’s explain more!
+Why is this the case? Keep reading!
 
 
 
