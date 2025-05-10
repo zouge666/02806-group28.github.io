@@ -135,7 +135,7 @@ Why like that? Let’s explain more!
 - [Part I: Story Prelude](#part-i-story-prelude--the-hidden-truths-of-the-world-cup)
 - [Part II: Data Visualization](#part-ii-data-visualization--testing-the-gossips-with-numbers)
 - [Part III: Model Validation – Advanced Modeling](#part-iii-model-validation--advanced-modeling)
-- [Part IV: Final Thoughts](#part-v-final-thoughts)
+- [Part IV: Final Thoughts](#part-iv-final-thoughts)
 - [Part V: Behind-the-Scenes Code (jupyter notebook)](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
 
 ## Part I: Story Prelude – “The Hidden Truths” of the World Cup?
