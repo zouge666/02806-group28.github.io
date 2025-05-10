@@ -348,7 +348,10 @@ Using Köppen climate zones, we created two visualizations:
 2. Average team win rate by climate type:
 
 <iframe src="ave_rate.html" style="width: 100%; height: 520px; border: none;"></iframe>
-
+<p></p>
+<!-- break -->
+<div markdown="1">
+  
 These charts show that:
 
 Matches played in dry desert (BWh) and tropical rainforest (Af) climates tend to have lower win rates.
