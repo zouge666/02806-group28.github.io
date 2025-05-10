@@ -466,10 +466,10 @@ This plot represents the feature coefficients of a logistic regression model, sh
 
 We also trained a random forest classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
 <iframe src="feature_importances_rf_custom.html" style="width: 100%; height: 488px; border: none;"></iframe>
-Accuracy: 0.6277777777777778
-Precision: 0.660377358490566
-Recall: 0.693069306930693
-F1 Score: 0.6763285024154589
+<p><strong>Accuracy:</strong> 62.78%</p>
+<p><strong>Precision:</strong> 66.04%</p>
+<p><strong>Recall:</strong> 69.31%</p>
+<p><strong>F1 Score:</strong> 67.63%</p>
 
 The model performs relatively well in predicting home team victories, with an accuracy of 63%, indicating that it can correctly predict the outcome of most matches, especially when the home team wins. However, there are some shortcomings in the model, mainly in terms of false positives and false negatives. The false positives are 45, meaning the model incorrectly predicted a home team win when the actual result was a loss for the home team. The false negatives are 22, meaning the model failed to predict a home team win. The confusion matrix and classification report show that the model performs better in predicting home team victories, with a recall of 69%, indicating that the model can accurately identify most instances when the home team wins. However, the predictions for home team losses are not as accurate as for home team victories. 
 
