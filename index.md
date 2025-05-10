@@ -409,7 +409,6 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 ---
 
 > These real-life match examples highlight how data can both **debunk and reinforce popular football myths**, showing that while gossip isn't always right, it's often grounded in reality.
->
 
 
 ## Part III: Model Validation – Advanced Modeling
@@ -458,9 +457,6 @@ This plot represents the feature coefficients of a logistic regression model, sh
 
 ---
 
-
-
-
 ###  2. Random Forest Comparison – Is It Better?
 
 We also trained a random forest classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
@@ -473,8 +469,6 @@ We also trained a random forest classifier using the same feature set to see if 
 The model performs relatively well in predicting home team victories, with an accuracy of 63%, indicating that it can correctly predict the outcome of most matches, especially when the home team wins. However, there are some shortcomings in the model, mainly in terms of false positives and false negatives. The false positives are 45, meaning the model incorrectly predicted a home team win when the actual result was a loss for the home team. The false negatives are 22, meaning the model failed to predict a home team win. The confusion matrix and classification report show that the model performs better in predicting home team victories, with a recall of 69%, indicating that the model can accurately identify most instances when the home team wins. However, the predictions for home team losses are not as accurate as for home team victories. 
 
 The model has a precision of 66%, recall of 69%, and an F1 score of 0.68, reflecting a good balance between precision and recall. Feature importance analysis reveals that star players (such as home_star and away_star) have a significant impact on the model’s predictions. These features are assigned high importance, indicating that the presence of star players plays a crucial role in predicting the outcome of a match. Additionally, traditional strong teams (such as Brazil, Germany, Argentina, etc.) are also prominently considered, with the model reflecting this influence through the home_strong and away_strong features. Other factors such as whether the home team is the host country and historical champions are also effectively incorporated into the model. Overall, while the model performs fairly accurately in predicting home team victories, there is still room for improvement, particularly in predicting home team losses.
-
-
 
 ---
 
