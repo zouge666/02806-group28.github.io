@@ -136,10 +136,9 @@ Why like that? Let’s explain more!
 *Table of Contents*  
 - [Part I: Story Prelude](#part-i-story-prelude--the-hidden-truths-of-the-world-cup)
 - [Part II: Data Visualization](#part-ii-data-visualization--testing-the-gossips-with-numbers)
-- [Part III: Advanced Modeling](#part-iii-advanced-modeling--building-the-rumor-scoring-system)
-- [Part IV: Model Validation](#part-iv-model-validation--can-rumors-predict-reality)
-- [Part V: Final Thoughts](#part-v-final-thoughts)
-- [Part VI: Behind-the-Scenes Code (jupyter notebook)](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
+- [Part III: Model Validation – Advanced Modeling](#part-iii-model-validation--advanced-modeling)
+- [Part IV: Final Thoughts](#part-v-final-thoughts)
+- [Part V: Behind-the-Scenes Code (jupyter notebook)](https://github.com/zouge666/SocialDataAnalysisAndVisualization-28)
 
 ## Part I: Story Prelude – “The Hidden Truths” of the World Cup?
 
@@ -415,211 +414,75 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 >
 
 
-## Part III: Advanced Modeling – Building the “Rumor Scoring System”
+## Part III: Model Validation – Advanced Modeling
 
->**I know the data section below may not be so easy to follow, so we’ve prepared a concise summary for you. Of course, if you’re interested, please feel free to dive into the full data section.**
+ Hint: In this analysis, we used three models to predict whether the home team would win. The results showed that the models performed relatively well in predicting home team victories, with an accuracy of around 63%. The most important factors influencing the prediction were the number of star players, which had a significant impact on predicting home team wins. Additionally, whether the home team is a strong team and whether it is the host country also played key roles. Through feature importance analysis using the Random Forest model, we found that star players, strong team background, and home team advantage were the most influential factors in predicting match outcomes. Overall, the prediction of home team victories heavily relied on these factors, with star players having a particularly significant impact.
 
-* **What is the “Rumor Risk Score”?**
-  Our model assigns each claim a number between 0 and 1—the higher the score, the more likely it’s a rumor. It looks at three main clues:
-
-  1. **How it spreads** (speed and reach on social media)
-  2. **The wording** (use of sensational or emotional language)
-  3. **Author history** (whether the poster has shared false info before)
-
-* **How to Read the Score**
-
-  * **Low Risk (< 0.5):**   Probably true—feel free to trust it.
-  * **Medium Risk (0.5–0.8):**   Could be suspicious—check reliable sources or wait for updates.
-  * **High Risk (> 0.8):**   Very likely false—do not trust without verifying.
-
-* **Site Examples**
-
-  1. **“Messi Always Guarantees a Win”**
-
-     * **Score:** 0.22 (Low Risk)
-     * **Reality:** In the 2022 World Cup final, Messi scored twice and set up another goal; Argentina won on penalties. His presence truly boosts the team’s chances.
-  2. **“Heat Will Crush the German Team”**
-
-     * **Score:** 0.65 (Medium Risk)
-     * **Reality:** In the 2018 group stage in humid Moscow, Germany tired in the second half and lost 0–1 to Mexico—climate did play a role, but it wasn’t a guaranteed outcome.
-  3. **“Referee Took Bribes to Fix the Match”**
-
-     * **Score:** 0.89 (High Risk)
-     * **Reality:** FIFA’s investigation found no evidence of corruption. This rumor was unfounded and debunked.
-
-* **How Well the Model Works**
-
-  * **Accuracy \~80%:**   Correctly labels about 8 out of every 10 items.
-  * **Precision \~78% & Recall \~82%:**
-
-    * Of what it flags as rumors, nearly 8 out of 10 truly are false.
-    * It catches about 82% of all actual rumors.
-  * **Overall Discrimination (AUC \~0.85):**   Strong ability to separate true from false across different thresholds.
-
-> **Takeaway:** Use this tool as a **first filter** to spotlight suspicious claims. For anything tagged **High Risk**, always double-check with official sources or expert review before you decide what to believe.
-
-
->  To quantify the fan gossips, we designed a feature-driven scoring system that assigns each match a “rumor score” based on intuitive fan beliefs and match context.
-
-We assign points based on five commonly discussed “rumor-based” features:
-
-| Rumor Condition                                                | Score |
-|----------------------------------------------------------------|-------|
-|  Team is a traditional football powerhouse                   | +2.0  |
-|  Host nation advantage                                       | +1.5  |
-|  High-atmosphere city (historically high goal counts)        | +1.0  |
-|  Favorable climate (non-tropical, non-desert)                | +0.5  |
-|  Star player appears (Ballon d'Or winner starts)             | +1.0  |
-
-Each match receives a **cumulative score**, which we hypothesize correlates with match outcome. These features were then used to train a **logistic regression model** for binary classification (home win or not).
-
-We test whether high “gossip scores” are statistically predictive, and whether the most cited fan beliefs—like home advantage or star power—translate into measurable win probabilities.
-
-## Part IV: Model Validation – Can Rumors Predict Reality?
-
-To evaluate the validity of our scoring system and model, we conducted **multiple levels of testing**:
-
-1. **Descriptive grouping analysis**: We grouped matches based on total rumor score (e.g., ≥4, 2–4, <2), and found a strong correlation between **higher scores and actual win rates**.  
-2. **Logistic regression model**: We used scoring features directly as input to train a classifier.  
-3. **Random forest baseline**: To compare against a non-linear method and validate feature importance.  
-4. **Prediction outcome inspection**: To understand classification errors and pattern consistency.  
 
 ---
 
-###  1. Logistic Regression Results
+###  1. Binary Logistic Regression
 
 ####  Confusion Matrix:
 
 |               | Predicted: Win | Predicted: Loss |
 |---------------|----------------|-----------------|
-| **Actual: Win**  | TP = 83        | FN = 24          |
-| **Actual: Loss** | FP = 43        | TN = 31          |
+| **Actual: Win**  | TP = 84        | FN = 22          |
+| **Actual: Loss** | FP = 45        | TN = 29          |
 
-- ✔️ **High recall** (78.3%) shows the model captures most actual wins
-- ❌ But **precision** (65.9%) suggests a notable number of **false positives** (overestimating wins)
+- In 84 matches, the home team actually won and was correctly predicted (True Positives).
+In 29 matches, the home team lost and was correctly predicted (True Negatives).
+In 45 matches, the model incorrectly predicted a home team win (False Positives).
+In 22 matches, the model underestimated the home team, which actually won (False Negatives).
+This indicates that the model is particularly effective at recognizing cases where the home team is likely to win, as reflected by its high recall.
 
-####  Key Metrics:
+####  Prediction:
 
-- **Accuracy:** 63.3%  
-- **Precision:** 65.9%  
-- **Recall:** 78.3%  
-- **F1 Score:** 0.716  
-- **Log-loss:** 0.618  
-- **Brier score:** 0.214  
+- Top 10 Prediction Summary: The prediction results show that for most matches where the model predicted a win probability above 0.6, the home team indeed won (e.g., P=0.762, 0.925). The incorrect predictions mostly occurred around probability values close to 0.5, where the model itself expresses uncertainty. Meanwhile, the model correctly identified at least one clear case where the home team lost (e.g., P=0.303), showing that it retains some ability to discriminate in both directions Overall Summary: By incorporating the number of star players as a feature, the model not only improved its recall, but also showed a more confident distribution of predictions. It was better able to identify matches where the home team had a clear advantage—such as the presence of star players—thus improving the overall reliability and interpretability of its predictions.
+Results below:
+|               | Predicted: Win | Predicted: Loss |
+|---------------|----------------|-----------------|
+| **Actual: Win**  | 6              | 2               |
+| **Actual: Loss** | 4              | 4               |
 
->  *From the confusion matrix above, we note the model performs slightly better at recalling wins than avoiding mistakes—a tradeoff common in recall-oriented setups.*
 
 ---
 
-###  2. Coefficient Analysis (Figure: Logistic Coefficients)
+###  Coefficient Analysis (Figure: Binary Logistic Coefficients)
 
-| Feature            | Coefficient | Interpretation                                      |
-|--------------------|-------------|-----------------------------------------------------|
-| `away_is_winner`   | –2.8761     | Opponent is former champ → greatly reduces win odds |
-| `koppen_code_BWh`  | +1.4455     | Desert climate favors home team                     |
-| `home_is_winner`   | +0.9601     | Home team is past champion → boosts win odds        |
-| `away_strong`      | –0.7564     | Strong opponent → lower win chance                  |
-| `home_is_host`     | +0.7352     | Host nation boost                                   |
-| `koppen_code_AsAw` | –0.6252     | Tropical dry zone → slightly hurts win rate         |
-| `knockout`         | +0.4970     | Knockout match → small home edge                    |
-| `koppen_code_Am`   | +0.4559     | Tropical monsoon → moderate boost                   |
-| `home_strong`      | +0.4403     | Home team is a strong team → moderate edge          |
+<iframe src="feature_coefficient.html" style="width: 100%; height: 488px; border: none;"></iframe>
 
-💡 **Insights**:
-
-- Through the coefficients, **historical strength** (e.g. `home_is_winner`, `away_is_winner`) dominates match outcomes.
-- **Climate variables** (e.g. `koppen_code_*`) show consistent but moderate effects, suggesting some environments are less favorable.
-- **Home advantage** and **tournament stage** also offer measurable boosts.
+Insights:
+This plot represents the feature coefficients of a logistic regression model, showing how different features contribute to the prediction of the home team winning. The horizontal axis represents the coefficients, with longer bars indicating stronger relationships between the feature and the outcome. Positive values suggest that the feature increases the probability of a home team win, while negative values suggest it decreases the probability. Features such as "home_strong" (home team strength) have a positive coefficient, meaning that when the home team is strong, the model is more likely to predict a home win. On the other hand, features like "koppen_code_BWh" (climatic conditions) show a strong negative effect, indicating that matches with this climate type decrease the likelihood of a home win. The feature "away_is_winner" has a relatively weak effect on the prediction.
 
 >  This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
 
 ---
 
-###  3. Sample Predictions (Top 10 Records)
-
-| Index | P(Win) | Actual Outcome |
-|-------|--------|----------------|
-| 1     | 0.761  | Win         |
-| 2     | 0.532  | Loss *(FP)* |
-| 3     | 0.481  | Loss *(TN)* |
-| 4     | 0.927  | Win         |
-| 5     | 0.638  | Win         |
-| 6     | 0.556  | Loss *(FP)* |
-| 7     | 0.744  | Win         |
-| 8     | 0.631  | Win         |
-| 9     | 0.556  | Loss *(FP)* |
-| 10    | 0.348  | Loss *(TN)* |
-
-> Example: Match 2 was predicted with P=0.532 as a win, but the team lost — a **false positive**.  
-> In contrast, Match 3 with P=0.481 was correctly classified as a loss — a **true negative**.
 
 
 
-###  4. Random Forest Comparison – Is It Better?
+###  2. Random Forest Comparison – Is It Better?
 
-We also trained a **random forest** classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
+We also trained a random forest classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
+<iframe src="feature_importances_rf_custom.html" style="width: 100%; height: 488px; border: none;"></iframe>
+Accuracy: 0.6277777777777778
+Precision: 0.660377358490566
+Recall: 0.693069306930693
+F1 Score: 0.6763285024154589
 
-####  Accuracy: 62%
+The model performs relatively well in predicting home team victories, with an accuracy of 63%, indicating that it can correctly predict the outcome of most matches, especially when the home team wins. However, there are some shortcomings in the model, mainly in terms of false positives and false negatives. The false positives are 45, meaning the model incorrectly predicted a home team win when the actual result was a loss for the home team. The false negatives are 22, meaning the model failed to predict a home team win. The confusion matrix and classification report show that the model performs better in predicting home team victories, with a recall of 69%, indicating that the model can accurately identify most instances when the home team wins. However, the predictions for home team losses are not as accurate as for home team victories. The model has a precision of 66%, recall of 69%, and an F1 score of 0.68, reflecting a good balance between precision and recall. Feature importance analysis reveals that star players (such as home_star and away_star) have a significant impact on the model’s predictions. These features are assigned high importance, indicating that the presence of star players plays a crucial role in predicting the outcome of a match. Additionally, traditional strong teams (such as Brazil, Germany, Argentina, etc.) are also prominently considered, with the model reflecting this influence through the home_strong and away_strong features. Other factors such as whether the home team is the host country and historical champions are also effectively incorporated into the model. Overall, while the model performs fairly accurately in predicting home team victories, there is still room for improvement, particularly in predicting home team losses.
 
-####  Confusion Matrix:
 
-|               | Predicted: Win | Predicted: Loss |
-|---------------|----------------|-----------------|
-| **Actual: Win**  | TP = 28        | FN = 112         |
-| **Actual: Loss** | FP = 23        | TN = 197         |
-
-####  Class-wise Metrics:
-
-| Class | Precision | Recall | F1    |
-|-------|-----------|--------|-------|
-| Win   | 0.55      | 0.20   | 0.29  |
-| Loss  | 0.64      | 0.90   | 0.74  |
-
-- The model **struggles with win detection**, severely underestimating home wins (recall = 0.20).
-- It performs well on losses, producing many **true negatives** but also **false negatives** for wins.
 
 ---
 
-####  Top 10 Feature Importances:
-
-| Feature         | Importance |
-|----------------|------------|
-| `is_champ`      | 0.277      |
-| `attendance_x`  | 0.256      |
-| `is_strong`     | 0.246      |
-| `is_host`       | 0.069      |
-| `koppen_code_Cwb` | 0.015     |
-| `koppen_code_Dfa` | 0.014     |
-| `high_fans`     | 0.014      |
-| `koppen_code_BSk` | 0.014     |
-| `koppen_code_Cfa` | 0.013     |
-| `koppen_code_Csb` | 0.012     |
-
- Interpretation:
-
-- Key predictors: historical wins (`is_champ`), stadium atmosphere (`attendance_x`), and team strength (`is_strong`)
-- Climate variables contribute less, though present across multiple top-10 entries
-
----
-### 🧪 Validation Methods Overview
-
-| Method                            | Type                   | Accuracy / Metrics Used                   | Purpose / Insight                                                                 |
-|-----------------------------------|------------------------|-------------------------------------------|------------------------------------------------------------------------------------|
-| Logistic Regression               | ✅ Model Validation     | Accuracy: 63.3%, F1: 0.716, Recall: 78.3% | Evaluate how well scoring features predict match outcomes                         |
-| Random Forest                     | ✅ Model Validation     | Accuracy: 62%, Recall (win): 20%          | Test robustness with non-linear boundaries and assess feature importance          |
-| Prediction Inspection             | ✅ Model Validation     | N/A (manual examples)                     | Check how probabilities align with real results in individual cases               |
-| Coefficient Analysis              | ✅ Model Interpretation | Coefficients (e.g., –2.87, +0.96, etc.)   | Explain model logic: which features strongly affect win prediction                |
-| Descriptive Grouping by Score     | ❌ Score System Check   | Win Rate by score group (e.g., ≥4 → 70%)  | Check if higher “rumor scores” correspond to higher actual win probability        |
-| Feature Importance (Random Forest)| ❌ Score Logic Check    | Importance values (e.g., 0.277, 0.256)     | Validate if the scoring factors are actually influential in the model’s outcome   |
-
----
-
-## Part V: Final Thoughts
+## Part IV: Final Thoughts
 
 Football may be a game of skills and strategy, but the data reveals that some “rumors” carry surprising statistical weight.  
 While myths aren’t perfect predictors, they often reflect truths hidden in numbers.
 
 > ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
 
-## Part VI: Behind-the-Scenes Code (jupyter notebook)
+## Part V: Behind-the-Scenes Code (jupyter notebook)
 [ Ready for more? Bounce back to the top—and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
