@@ -419,19 +419,18 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ---
 
-###  1. Binary Logistic Regression
+### 1. Binary Logistic Regression  
+#### Confusion Matrix:  
 
-####  Confusion Matrix:
+|                 | Predicted: Win | Predicted: Loss |
+|-----------------|----------------|-----------------|
+| **Actual: Win** | TP = 84        | FN = 22         |
+| **Actual: Loss**| FP = 45        | TN = 29         |
 
-|               | Predicted: Win | Predicted: Loss |
-|---------------|----------------|-----------------|
-| **Actual: Win**  | TP = 84        | FN = 22          |
-| **Actual: Loss** | FP = 45        | TN = 29          |
-
-- In 84 matches, the home team actually won and was correctly predicted (True Positives).
-In 29 matches, the home team lost and was correctly predicted (True Negatives).
-In 45 matches, the model incorrectly predicted a home team win (False Positives).
-In 22 matches, the model underestimated the home team, which actually won (False Negatives).
+- In 84 matches, the home team actually won and was correctly predicted (True Positives).  
+- In 29 matches, the home team lost and was correctly predicted (True Negatives).  
+- In 45 matches, the model incorrectly predicted a home team win (False Positives).  
+- In 22 matches, the model underestimated the home team, which actually won (False Negatives).
 This indicates that the model is particularly effective at recognizing cases where the home team is likely to win, as reflected by its high recall.
 
 ####  Prediction:
