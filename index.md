@@ -57,7 +57,7 @@ title: Welcome to Group 28's Website - Final Project - FIFA Gossip
 
 
 ---
-#  Final Project - FiFA Gossips
+#  Final Project - FIFA Gossips
 
 <!-- ——— FIFA ——— -->
 <p style="margin:0; padding:0;">
