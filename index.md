@@ -366,14 +366,16 @@ Boxplot view by broad climate zones:
 
 <iframe
   src="zone.html"
-  style="width: 100%; height: 820px; border: none;"
+  style="width: 100%; height: 620px; border: none;"
   scrolling="yes">
 </iframe>
 
 Detailed interactive view by city and team group:
 
-<iframe src="team_cli.html" style="width: 100%; height: 720px; border: none;"></iframe>
-<br>
+<iframe src="team_cli.html" style="width: 100%; height: 620px; border: none;"></iframe>
+<p></p>
+<!-- break -->
+<div markdown="1">
 
 #### What we found:
 
