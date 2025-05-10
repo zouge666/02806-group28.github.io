@@ -413,8 +413,7 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ## Part III: Model Validation – Advanced Modeling
 
- Hint: In this analysis, we used three models to predict whether the home team would win. The results showed that the models performed relatively well in predicting home team victories, with an accuracy of around 63%. The most important factors influencing the prediction were the number of star players, which had a significant impact on predicting home team wins. Additionally, whether the home team is a strong team and whether it is the host country also played key roles. Through feature importance analysis using the Random Forest model, we found that star players, strong team background, and home team advantage were the most influential factors in predicting match outcomes. Overall, the prediction of home team victories heavily relied on these factors, with star players having a particularly significant impact.
-
+> *Hint: In this analysis, we used three models to predict whether the home team would win. The results showed that the models performed relatively well in predicting home team victories, with an accuracy of around 63%. The most important factors influencing the prediction were the number of star players, which had a significant impact on predicting home team wins. Additionally, whether the home team is a strong team and whether it is the host country also played key roles. Through feature importance analysis using the Random Forest model, we found that star players, strong team background, and home team advantage were the most influential factors in predicting match outcomes. Overall, the prediction of home team victories heavily relied on these factors, with star players having a particularly significant impact.*
 
 ---
 
@@ -430,7 +429,7 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 - In 29 matches, the home team lost and was correctly predicted (True Negatives).  
 - In 45 matches, the model incorrectly predicted a home team win (False Positives).  
 - In 22 matches, the model underestimated the home team, which actually won (False Negatives).
-This indicates that the model is particularly effective at recognizing cases where the home team is likely to win, as reflected by its high recall.
+This indicates that the model is particularly effective at recognizing cases where the home team is likely to win, as reflected by its high recall.<br>
 
 ####  Prediction:
 
@@ -442,7 +441,6 @@ This indicates that the model is particularly effective at recognizing cases whe
 |---------------|----------------|-----------------|
 | **Actual: Win**  | 6              | 2               |
 | **Actual: Loss** | 4              | 4               |
-
 
 ---
 
@@ -461,10 +459,10 @@ This plot represents the feature coefficients of a logistic regression model, sh
 
 We also trained a random forest classifier using the same feature set to see if nonlinear decision boundaries improved prediction.
 <iframe src="feature_importances_rf_custom.html" style="width: 100%; height: 488px; border: none;"></iframe>
-<p><strong>Accuracy:</strong> 62.78%</p>
-<p><strong>Precision:</strong> 66.04%</p>
-<p><strong>Recall:</strong> 69.31%</p>
-<p><strong>F1 Score:</strong> 67.63%</p>
+<strong>Accuracy:</strong> 62.78%<br>
+<strong>Precision:</strong> 66.04%<br>
+<strong>Recall:</strong> 69.31%<br>
+<strong>F1 Score:</strong> 67.63%<br>
 
 The model performs relatively well in predicting home team victories, with an accuracy of 63%, indicating that it can correctly predict the outcome of most matches, especially when the home team wins. However, there are some shortcomings in the model, mainly in terms of false positives and false negatives. The false positives are 45, meaning the model incorrectly predicted a home team win when the actual result was a loss for the home team. The false negatives are 22, meaning the model failed to predict a home team win. The confusion matrix and classification report show that the model performs better in predicting home team victories, with a recall of 69%, indicating that the model can accurately identify most instances when the home team wins. However, the predictions for home team losses are not as accurate as for home team victories. 
 
