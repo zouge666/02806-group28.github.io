@@ -152,7 +152,7 @@ We’ve handpicked some of the most viral World Cup gossips for you.
 > *“Bro, it’s Messi. Argentina’s basically already 1–0 up before kickoff.”*  
 > *“If Ronaldo’s hair doesn’t move, the defense won’t either.”*
 
-Some fans believe having **Lionel Messi** or **Cristiano Ronaldo** on the pitch is a guaranteed advantage. In their eyes, it’s not just talent—it’s destiny. The logic? If Messi plays, Argentina wins. If Cristiano’s hair is perfectly styled, expect a hat-trick.
+Some fans believe having **Lionel Messi** or **Cristiano Ronaldo** on the pitch is a guaranteed advantage. In their eyes, it’s not just talent, it’s destiny. The logic? If Messi plays, Argentina wins. If Cristiano’s hair is perfectly styled, expect a hat-trick.
 
 These ideas are wildly popular among fans and social media memes.  
 But are they grounded in reality?  
@@ -179,7 +179,7 @@ Does the presence of a star player statistically raise a team’s win rate or go
 > *“If France plays in Paris, even Brazil’s samba doesn’t work.”*  
 > *“Mexico’s high-altitude stadiums? Instant nosebleed for Europeans.”*
 
-Football fans love to talk about **home turf advantage**—the idea that cities like Paris, Buenos Aires, or Mexico City come with invisible boosts: louder fans, local climate, and psychological edge.  
+Football fans love to talk about **home turf advantage**; the idea that cities like Paris, Buenos Aires, or Mexico City come with invisible boosts: louder fans, local climate, and psychological edge.  
 Some even claim European teams *"can’t breathe"* at Mexico’s altitude, or that France “becomes invincible” when in Stade de France.
 
 But is that true?  
@@ -229,7 +229,7 @@ But can we find evidence that **climate zones** like tropical, arid, or continen
 > *“Belgium is always the best team to never win.”*  
 > *“Brazil? They skip quarter-finals and just show up in semis.”*
 
-Fans love narratives about **traditional powerhouses**—some deemed cursed, others legendary.  
+Fans love narratives about **traditional powerhouses**, some deemed cursed, others legendary.  
 England’s infamous **penalty struggles** are a recurring meme.  
 Belgium’s “**golden generation**” is often praised, yet never quite delivers.  
 Brazil is assumed to breeze through to the finals no matter what.
@@ -251,7 +251,7 @@ How do “**famous teams**” like Brazil, Belgium, Argentina, or France perform
 
 In this project, we’re bringing these whispers and fan beliefs into the courtroom of **data**.
 
-Using **historical World Cup statistics**, we put these gossips on trial—  
+Using **historical World Cup statistics**, we put these gossips on trial.   
 Let the **numbers** speak the truth.
 
  Keep reading to see what the data reveals about **superstition, geography**, and **elite performance** in the world’s most watched tournament.
@@ -284,7 +284,7 @@ Teams with Ballon d'Or players had a 53.6% win rate.
 Teams without them had only 35.9%.
 
 This difference suggests that star players tend to appear in better-performing teams.  
-But correlation does not imply causation — is it the star power, or simply that strong teams have star players?
+But correlation does not imply causation. Is it the star power, or simply that strong teams have star players?
 
 ---
 
@@ -321,7 +321,7 @@ So we compared every World-Cup match where a team played as the tournament’s h
 
 Host teams average ≈ 0.74 win-rate
 Non-hosts average ≈ 0.46 win-rate
-That’s almost a 30-point jump — the KDE curve for hosts is clearly shifted to the right.
+That’s almost a 30-point jump, the KDE curve for hosts is clearly shifted to the right.
 
 #### Why might this be?
 
@@ -330,13 +330,13 @@ Reduced fatigue – no cross-continent travel, jet-lag or altitude shock for the
 Psychological lift – national expectation can boost motivation.
 Selection bias – host nations are often automatic qualifiers; weaker hosts (e.g., South Africa 2010, Qatar 2022) show the curve’s lower tail, proving advantage ≠ certainty.
 
-The numbers back the gossip — playing in your own backyard does raise the odds of winning, though elite visiting teams can still spoil the party.
+The numbers back the gossip. Playing in your own backyard does raise the odds of winning, though elite visiting teams can still spoil the party.
 
 ---
 
 ### 3. Climate Conditions: Do Harsh Environments Suppress Performance?
 
-We then examined whether the natural environment—heat, humidity, or altitude—affects play.
+We then examined whether the natural environment (heat, humidity, or altitude) affects play.
 
 Using Köppen climate zones, we created two visualizations:
 
@@ -390,7 +390,7 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 - Messi directly contributed to **over 66% of Argentina’s goals** during the tournament
 - He received the **Golden Ball** as best player of the tournament  
 
-> *“If Messi plays, they win”? — This match makes a strong case.*
+> *“If Messi plays, they win”? -This match makes a strong case.*
 
 ---
 
@@ -404,7 +404,7 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 - Germany struggled to match Mexico’s pace in the second half  
 - German media later questioned the team’s **adaptation to summer heat**  
 
-> *Supports the climate gossip—hot and humid days may erode performance.*
+> *Supports the climate gossip; hot and humid days may erode performance.*
 
 ---
 
@@ -436,7 +436,7 @@ This indicates that the model is particularly effective at recognizing cases whe
 
 ####  Prediction:
 
-- Top 10 Prediction Summary: The prediction results show that for most matches where the model predicted a win probability above 0.6, the home team indeed won (e.g., P=0.762, 0.925). The incorrect predictions mostly occurred around probability values close to 0.5, where the model itself expresses uncertainty. Meanwhile, the model correctly identified at least one clear case where the home team lost (e.g., P=0.303), showing that it retains some ability to discriminate in both directions Overall Summary: By incorporating the number of star players as a feature, the model not only improved its recall, but also showed a more confident distribution of predictions. It was better able to identify matches where the home team had a clear advantage—such as the presence of star players—thus improving the overall reliability and interpretability of its predictions.
+- Top 10 Prediction Summary: The prediction results show that for most matches where the model predicted a win probability above 0.6, the home team indeed won (e.g., P=0.762, 0.925). The incorrect predictions mostly occurred around probability values close to 0.5, where the model itself expresses uncertainty. Meanwhile, the model correctly identified at least one clear case where the home team lost (e.g., P=0.303), showing that it retains some ability to discriminate in both directions Overall Summary: By incorporating the number of star players as a feature, the model not only improved its recall, but also showed a more confident distribution of predictions. It was better able to identify matches where the home team had a clear advantage (such as the presence of star players), thus improving the overall reliability and interpretability of its predictions.
 
 #### Results below:
 
@@ -487,4 +487,4 @@ While myths aren’t perfect predictors, they often reflect truths hidden in num
 > ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
 
 ## Part V: Behind-the-Scenes Code (jupyter notebook)
-[ Ready for more? Bounce back to the top—and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
+[ Ready for more? Bounce back to the top and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
