@@ -361,13 +361,13 @@ Unfamiliar or physically challenging environments likely reduce overall team eff
 To explore how these factors interact with team strength, we compared top-tier national teams (e.g., Brazil, France, Germany) against others across climates.
 
 Boxplot view by broad climate zones:
-
+<p></p>
 <iframe src="zone.html" style="width: 100%; height: 820px; border: none;"></iframe>
 
 Detailed interactive view by city and team group:
 
 <iframe src="team_cli.html" style="width: 100%; height: 488px; border: none;"></iframe>
-
+<p></p>
 #### What we found:
 
 - Top teams generally outperform others, but their advantage shrinks in extreme conditions.
