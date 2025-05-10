@@ -190,7 +190,7 @@ Does playing in certain **cities or countries** correlate with higher win rates 
 
 ####  References:
 
-[Reddit](https://www.reddit.com/r/football/comments/1auokgt/why_doesnt_the_altitude_problem_seems_to_exist_in/)
+[Reddit: Why dosen't the altitude problem seems to exist in](https://www.reddit.com/r/football/comments/1auokgt/why_doesnt_the_altitude_problem_seems_to_exist_in/)
 
 <!--
 <iframe width="640" height="360"
