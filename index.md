@@ -479,4 +479,4 @@ While myths aren’t perfect predictors, they often reflect truths hidden in num
 > ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
 
 ## Part V: Behind-the-Scenes Code (jupyter notebook)
-[ Ready for more? Bounce back to the top and uncover the hidden code magic! (code link is in the contents Part VI)](#top)
+[ Ready for more? Bounce back to the top and uncover the hidden code magic! (code link is in the contents Part V)](#top)
