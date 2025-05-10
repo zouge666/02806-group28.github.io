@@ -70,17 +70,15 @@ title: Welcome to Group 28's Website - Final Project
 <!-- ————————————— —— -->
 
 
-<div style="text-align: center;">
-    Written by:
-</div>
-<div style="text-align: center;">
-    Yunxuan Li - s232900
-</div>
-<div style="text-align: center;">
-    Senhao Zou - s242606
-</div>
-<div style="text-align: center;">
-    Xiaosa Liu - s242649
+<div style="text-align: center; margin-top: 20px;">
+    <strong>Written by:</strong><br>
+    Yunxuan Li (s232900)<br>
+    Senhao Zou (s242606)<br>
+    Xiaosa Liu (s242649)<br><br>
+    <strong>Data Source:</strong> 
+    <a href="https://tianchi.aliyun.com/dataset/160989" target="_blank">
+        Alibaba Tianchi Dataset #160989
+    </a>
 </div>
 
 ---
