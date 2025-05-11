@@ -424,12 +424,16 @@ We have a few matches where **fan theories and statistical outcomes** meet:
 
 ## Part III: Model Validation – Advanced Modeling
 
-> *Hint: In this analysis, we used three models to predict whether the home team would win. The results showed that the models performed relatively well in predicting home team victories, with an accuracy of around 63%. The most important factors influencing the prediction were the number of star players, which had a significant impact on predicting home team wins. Additionally, whether the home team is a strong team and whether it is the host country also played key roles. Through feature importance analysis using the Random Forest model, we found that star players, strong team background, and home team advantage were the most influential factors in predicting match outcomes. Overall, the prediction of home team victories heavily relied on these factors, with star players having a particularly significant impact.*
+> *Hint: In this analysis, we used 2 models to predict whether the home team would win. The results showed that the models performed relatively well in predicting home team victories, with an accuracy of around 63%. The most important factors influencing the prediction were the number of star players, which had a significant impact on predicting home team wins. Additionally, whether the home team is a strong team and whether it is the host country also played key roles. Through feature importance analysis using the Random Forest model, we found that star players, strong team background, and home team advantage were the most influential factors in predicting match outcomes. Overall, the prediction of home team victories heavily relied on these factors, with star players having a particularly significant impact.*
 
 ---
 
 ### 1. Binary Logistic Regression  
 #### Confusion Matrix:  
+Consider below factors:
+Historical performance of home and away teams (e.g., whether it has happened before, whether it is a strong team).
+Whether it is the host (whether the home team is the host of this World Cup).
+Stage of the competition (whether it is the knockout stage)
 
 |                 | Predicted: Win | Predicted: Loss |
 |-----------------|----------------|-----------------|
@@ -460,6 +464,7 @@ This indicates that the model is particularly effective at recognizing cases whe
 <iframe src="feature_coefficients.html" style="width: 100%; height: 488px; border: none;"></iframe>
 
 Insights:
+This plot consider Star players (such as whether the home and away teams have star players); Stage of the game (whether it is a knockout match); Historical performance of the home and away teams (whether they are strong teams, whether they have won the World Cup, etc.)
 This plot represents the feature coefficients of a logistic regression model, showing how different features contribute to the prediction of the home team winning. The horizontal axis represents the coefficients, with longer bars indicating stronger relationships between the feature and the outcome. Positive values suggest that the feature increases the probability of a home team win, while negative values suggest it decreases the probability. Features such as "home_strong" (home team strength) have a positive coefficient, meaning that when the home team is strong, the model is more likely to predict a home win. On the other hand, features like "koppen_code_BWh" (climatic conditions) show a strong negative effect, indicating that matches with this climate type decrease the likelihood of a home win. The feature "away_is_winner" has a relatively weak effect on the prediction.
 
 >  This analysis supports the core of our gossip theory: traditional powerhouses and favorable geography *do* increase win likelihood.
