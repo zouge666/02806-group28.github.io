@@ -493,12 +493,15 @@ The model has a precision of 66%, recall of 69%, and an F1 score of 0.68, reflec
 
 ---
 
-## Part IV: Final Thoughts
+## Part IV: Discussion
 
-Football may be a game of skills and strategy, but the data reveals that some “rumors” carry surprising statistical weight.  
-While myths aren’t perfect predictors, they often reflect truths hidden in numbers.
+### What Went Well
+Our project turned football rumors into **measurable features** like star players, climate, and home advantage. **Interactive charts** helped show clear patterns, and our models achieved around **63% accuracy**. The results matched common fan beliefs — for example, teams with star players were more likely to win. Real match examples helped connect the data with actual events.
 
-> ⚽ So maybe... Messi *does* bring luck, altitude *does* hurt Europeans, and fans *do* boost performance.
+### What Could Be Improved
+Some features, like "star player" and "strong team," may introduce bias due to overlap, and we didn’t account for variations in player performance over time — not all stars deliver in every match. Additionally, our rumor scoring system was manually designed and could be improved by using natural language processing to detect rumors more systematically. Lastly, our dataset was limited to men’s World Cups; incorporating women’s matches or qualifying games would provide a more complete picture.
+
+---
 
 ## Part V: Behind-the-Scenes Code (jupyter notebook)
 [ Ready for more? Bounce back to the top and uncover the hidden code magic! (code link is in the contents Part V)](#top)
