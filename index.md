@@ -324,6 +324,10 @@ So we compared every World-Cup match where a team played as the tournament’s h
 <p>Non-hosts average ≈ 0.46 win-rate<p>
 <p>That’s almost a 30-point jump; the KDE curve for hosts is clearly shifted to the right.<p>
 
+<p></p>
+<!-- break -->
+<div markdown="1">
+  
 #### Why might this be?
 
 Crowd & familiarity – constant local support and knowledge of the stadium conditions.
@@ -332,8 +336,11 @@ Psychological lift – national expectation can boost motivation.
 Selection bias – host nations are often automatic qualifiers; weaker hosts (e.g., South Africa 2010, Qatar 2022) show the curve’s lower tail, proving advantage ≠ certainty.
 
 The numbers back the gossip. Playing in your own backyard does raise the odds of winning, though elite visiting teams can still spoil the party.
-
+<p></p>
+<!-- break -->
+<div markdown="1">
 ---
+
 
 ### 3. Climate Conditions: Do Harsh Environments Suppress Performance?
 
